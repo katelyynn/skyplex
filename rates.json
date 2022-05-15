@@ -1,62 +1,29 @@
 {
     "mine": [
         [
-            {
-                "name": "stone",
-                "amount": 1
-            },
-            {
-                "name": "cobblestone",
-                "amount": 1
-            },
-            {
-                "name": "coal_ore",
-                "amount": 2
-            },
-            {
-                "name": "iron_ore",
-                "amount": 3
-            }
+            { "name": "stone", "amount": 1 },
+            { "name": "cobblestone", "amount": 1 },
+            { "name": "coal_ore", "amount": 2 },
+            { "name": "iron_ore", "amount": 3 }
         ],
         [
-            {
-                "name": "stone",
-                "amount": 1
-            },
-            {
-                "name": "cobblestone",
-                "amount": 1
-            },
-            {
-                "name": "coal_ore",
-                "amount": 2
-            },
-            {
-                "name": "iron_ore",
-                "amount": 3
-            }
+            { "name": "stone", "amount": 1 },
+            { "name": "cobblestone", "amount": 1 },
+            { "name": "coal_ore", "amount": 2 },
+            { "name": "iron_ore", "amount": 3 }
         ],
         [
-            {
-                "name": "stone",
-                "amount": 1
-            },
-            {
-                "name": "cobblestone",
-                "amount": 1
-            },
-            {
-                "name": "coal_ore",
-                "amount": 3
-            },
-            {
-                "name": "iron_ore",
-                "amount": 5
-            },
-            {
-                "name": "gold_ore",
-                "amount": 6
-            }
+            { "name": "stone", "amount": 1 },
+            { "name": "cobblestone", "amount": 1 },
+            { "name": "coal_ore", "amount": 3 },
+            { "name": "iron_ore", "amount": 5 },
+            { "name": "gold_ore", "amount": 6 }
         ]
+    ],
+    "fish": [
+
+    ],
+    "farm": [
+        
     ]
 }
