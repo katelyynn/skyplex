@@ -31,3 +31,10 @@ execute if score ver.month internal >= 4 internal if score ver.month internal <=
 execute if score ver.month internal >= 7 internal if score ver.month internal <= 9 internal run bossbar set sp:ver color red
 ## Q4
 execute if score ver.month internal >= 10 internal if score ver.month internal <= 12 internal run bossbar set sp:ver color white
+
+
+# player levels
+scoreboard objectives add lvl.mine dummy
+scoreboard objectives add lvl.wood dummy
+scoreboard objectives add lvl.fish dummy
+scoreboard objectives add lvl.food dummy
