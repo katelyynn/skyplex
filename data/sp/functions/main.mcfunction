@@ -19,3 +19,5 @@ execute as @a run function sp:level/main
 execute as @a run function sp:level/check
 # display player's level
 execute as @a run function sp:level/show
+# check level up
+execute as @a run function sp:level/up/check
