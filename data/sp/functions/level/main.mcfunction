@@ -20,3 +20,9 @@ execute if score @s #spmine.iron_ore matches 1.. if score @s lvl.mine matches 2 
 execute if score @s #spmine.gold_ore matches 1.. if score @s lvl.mine matches 2 run scoreboard players operation @s lvl.mine.progress += mine.2.gold_ore lvl.rates
 
 ## generated via rates.html
+
+scoreboard players reset @s #spmine.stone
+scoreboard players reset @s #spmine.cobblestone
+scoreboard players reset @s #spmine.coal_ore
+scoreboard players reset @s #spmine.iron_ore
+scoreboard players reset @s #spmine.gold_ore
