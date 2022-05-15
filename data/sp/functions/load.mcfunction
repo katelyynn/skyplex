@@ -52,8 +52,10 @@ scoreboard objectives add lvl.food.progress dummy
 
 # level goals
 ## mining
+scoreboard players set mine.0 lvl.goal 10
 scoreboard players set mine.1 lvl.goal 125
 scoreboard players set mine.2 lvl.goal 600
 ## fishing
+scoreboard players set fish.0 lvl.goal 5
 scoreboard players set fish.1 lvl.goal 50
 scoreboard players set fishh.2 lvl.goal 200
