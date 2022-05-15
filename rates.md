@@ -2,7 +2,7 @@
 
 ### Mining
 
-#### LV. 1
+#### LV. 0 & 1
 May be subject to change.
 
 | Block | +XP |
