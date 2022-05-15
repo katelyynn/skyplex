@@ -39,6 +39,7 @@ scoreboard objectives add spmine.stone minecraft.mined:minecraft.stone
 scoreboard objectives add spmine.cobblestone minecraft.mined:minecraft.cobblestone
 scoreboard objectives add spmine.coal_ore minecraft.mined:minecraft.coal_ore
 scoreboard objectives add spmine.iron_ore minecraft.mined:minecraft.iron_ore
+scoreboard objectives add spmine.gold_ore minecraft.mined:minecraft.gold_ore
 
 # player levels
 scoreboard objectives add lvl.goal dummy
