@@ -10,3 +10,7 @@ bossbar set sp:ver name ["",{"text":"Skyplex ","color":"gold"},{"score":{"name":
 bossbar set sp:ver players @a[tag=!ignore_ver]
 # set fill
 execute store result bossbar sp:ver value run scoreboard players get ver.month internal
+
+
+# display player's level
+execute as @a run function sp:level/show

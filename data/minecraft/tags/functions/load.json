@@ -1,6 +1,6 @@
 {
     "values": [
         "fm:prepare",
-        "skyplex:load" 
+        "sp:load" 
     ] 
 }
