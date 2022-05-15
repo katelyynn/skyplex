@@ -23,7 +23,7 @@
         for (let i in data.mine) {
             text = `${text}<br>## Lv. ${i}`
             for (let n in data.mine[i]) {
-                text = (`${text}<br>execute if score @s #spmine.${data.mine[i][n].name} matches 1.. if score @s lvl.mine matches 0 run scoreboard players operation @s lvl.mine.progress += mine.${i}.${data.mine[i][n].name} lvl.rates`);
+                text = (`${text}<br>execute if score @s #spmine.${data.mine[i][n].name} matches 1.. if score @s lvl.mine matches ${i} run scoreboard players operation @s lvl.mine.progress += mine.${i}.${data.mine[i][n].name} lvl.rates`);
             }
         }
         document.getElementById('sp:level/main').innerHTML = (`${text}`);
