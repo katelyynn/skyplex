@@ -35,6 +35,7 @@ execute if score ver.month internal >= 10 internal if score ver.month internal <
 
 
 # player levels
+scoreboard objectives add lvl.goal dummy
 ## mining
 scoreboard objectives add lvl.mine dummy
 scoreboard objectives add lvl.mine.progress dummy
@@ -47,3 +48,12 @@ scoreboard objectives add lvl.fish.progress dummy
 ## N/A
 scoreboard objectives add lvl.food dummy
 scoreboard objectives add lvl.food.progress dummy
+
+
+# level goals
+## mining
+scoreboard players set mine.1 lvl.goal 125
+scoreboard players set mine.2 lvl.goal 600
+## fishing
+scoreboard players set fish.1 lvl.goal 50
+scoreboard players set fishh.2 lvl.goal 200
