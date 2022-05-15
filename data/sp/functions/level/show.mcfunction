@@ -2,6 +2,15 @@
 ## depending on tool
 
 
+# store current level goal
+## mining
+execute if score @s lvl.mine matches 1 store result @s lvl.goal run scoreboard players get mine.1 lvl.goal
+execute if score @s lvl.mine matches 2 store result @s lvl.goal run scoreboard players get mine.2 lvl.goal
+## fishing
+execute if score @s lvl.fish matches 1 store result @s lvl.goal run scoreboard players get fish.1 lvl.goal
+execute if score @s lvl.fish matches 2 store result @s lvl.goal run scoreboard players get fish.2 lvl.goal
+
+
 # none
 ## (hides actionbar)
 execute unless data entity @s SelectedItem run title @s actionbar ""
