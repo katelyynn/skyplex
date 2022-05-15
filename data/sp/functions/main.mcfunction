@@ -12,6 +12,9 @@ bossbar set sp:ver players @a[tag=!ignore_ver]
 execute store result bossbar sp:ver value run scoreboard players get ver.month internal
 
 
+# track player level requirements
+execute as @a run function sp:level/main
+
 # display player's level
 execute as @a run function sp:level/show
 # check level is >= 0
