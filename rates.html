@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://plexion.dev/css/reset.css">
+    <link rel="stylesheet" href="https://plexion.dev/css/style.css">
+
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Skyplex generate</title>
+</head>
+<br><label class="over">sp:level/main</label>
+<div id="sp:level/main"></div>
+<hr>
+<br><label class="over">sp:load</label>
+<div id="sp:load"></div>
+<script>
+    $.get('rates.json',function(data) {
+        // sp:level/main
+        let text = "";
+        for (let i in data.mine) {
+            text = `${text}<br>## Lv. ${i}`
+            for (let n in data.mine[i]) {
+                text = (`${text}<br>execute if score @s #spmine.${data.mine[i][n].name} matches 1.. if score @s lvl.mine matches 0 run scoreboard players operation @s lvl.mine.progress += mine.${i}.${data.mine[i][n].name} lvl.rates`);
+            }
+        }
+        document.getElementById('sp:level/main').innerHTML = (`${text}`);
+
+        // sp:load
+        let text2 = "";
+        for (let i in data.mine) {
+            text2 = `${text2}<br>## Lv. ${i}`
+            for (let n in data.mine[i]) {
+                text2 = (`${text2}<br>scoreboard players set mine.${data.mine[i][n].name} lvl.rates ${data.mine[i][n].amount}`);
+            }
+        }
+        document.getElementById('sp:load').innerHTML = (`${text2}`);
+    });
+</script>
