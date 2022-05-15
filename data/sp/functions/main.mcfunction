@@ -14,3 +14,5 @@ execute store result bossbar sp:ver value run scoreboard players get ver.month i
 
 # display player's level
 execute as @a run function sp:level/show
+# check level is >= 0
+execute as @a run function sp:level/check
