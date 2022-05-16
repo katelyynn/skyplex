@@ -9,7 +9,7 @@
 - - [ ] Sell for money
 - [ ] Fishing
 - - [ ] Track fishing (fish_caught objective)
-- - [ ] Custom loot table (obly fish)
+- - [ ] Custom loot table (only fish)
 - - [x] Level up
 - - [ ] Sell for money
 - [ ] The act of cutting down trees
