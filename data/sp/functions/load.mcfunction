@@ -35,7 +35,7 @@ execute if score ver.month internal >= 10 internal if score ver.month internal <
 
 
 # display player level in trigger
-scoreboard objectives add lvl.call trigger
+scoreboard objectives add stats trigger
 
 
 # track player level requirements

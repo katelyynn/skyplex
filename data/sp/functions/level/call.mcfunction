@@ -16,4 +16,4 @@ tellraw @s ["",{"text":"🔱 ","color":"yellow"},{"text":"Farming ","color":"gol
 tellraw @s ""
 
 
-scoreboard players reset @s lvl.call
+scoreboard players reset @s stats

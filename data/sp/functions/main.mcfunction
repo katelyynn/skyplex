@@ -23,4 +23,4 @@ execute as @a run function sp:level/show
 execute as @a run function sp:level/up/check
 
 # call player's level in trigger
-execute as @a if score @s lvl.call matches 1.. run function sp:level/call
+execute as @a if score @s stats matches 1.. run function sp:level/call
