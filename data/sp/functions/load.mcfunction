@@ -39,11 +39,18 @@ scoreboard objectives add stats trigger
 
 
 # track player level requirements
+## mining
 scoreboard objectives add spmine.stone minecraft.mined:minecraft.stone
 scoreboard objectives add spmine.cobblestone minecraft.mined:minecraft.cobblestone
 scoreboard objectives add spmine.coal_ore minecraft.mined:minecraft.coal_ore
 scoreboard objectives add spmine.iron_ore minecraft.mined:minecraft.iron_ore
 scoreboard objectives add spmine.gold_ore minecraft.mined:minecraft.gold_ore
+## fishing
+scoreboard objectives add spfish.catch minecraft.custom:fish_caught
+## farming
+scoreboard objectives add spfarm.wheat minecraft.mined:minecraft.wheat
+scoreboard objectives add spfarm.carrots minecraft.mined:minecraft.carrots
+scoreboard objectives add spfarm.sweet_berry_bush minecraft.mined:minecraft.sweet_berry_bush
 
 # player levels
 scoreboard objectives add lvl.goal dummy
