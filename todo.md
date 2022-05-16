@@ -1,5 +1,10 @@
 ## skyplex todo
 
+### Crafting
+
+- [ ] Fully remove all native crafting
+- - [ ] Craftable currency (between nuggets / ingots)
+
 ### Professions
 
 - [ ] Mining
@@ -7,7 +12,7 @@
 - - [x] Level up
 - - [ ] Re-generate blocks
 - - [ ] Sell for money
-- [x] Fishing
+- [ ] Fishing
 - - [x] Track fishing (fish_caught objective)
 - - [x] Custom loot table (only fish)
 - - [x] Level up
@@ -56,7 +61,17 @@ Numbers subject to change.
 ### Islands(?)
 
 - [ ] Starting
-- Very limited, only basic wood/stone
+- Very limited, only basics
+- Mines: Coal, Coal Block, Iron
+- [ ] Caverns
+- Cave island
+- Mines: Iron, Iron Block, Gold, Redstone?
+- Locked to Mining 2?
+- [ ] Deep Caverns
+- Deeper cave island, best overworld ores & normal
+- Mines: Iron, Iron Block, Gold, Gold Block, Redstone, Diamond)
+- Much deeper down: Emerald, Emerald Block, Diamond Block, Obsidian)
+- Locked to Mining 5?
 - [ ] Farming
 - Farms with variated crops (different crops = more xp?)
 - Include animals(?)
