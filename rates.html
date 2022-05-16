@@ -20,22 +20,44 @@
     $.get('rates.json',function(data) {
         // sp:level/main
         let text = "";
+        // mining
+        text = `${text}<br><br># mining`
         for (let i in data.mine) {
             text = `${text}<br>## Lv. ${i}`
             for (let n in data.mine[i]) {
                 text = (`${text}<br>execute if score @s spmine.${data.mine[i][n].name} matches 1.. if score @s lvl.mine matches ${i} run scoreboard players operation @s lvl.mine.progress += mine.${i}.${data.mine[i][n].name} lvl.rates`);
             }
         }
+        // fishing
+        text = `${text}<br><br># fishing`
+        for (let i in data.fish) {
+            text = `${text}<br>## Lv. ${i}`
+            for (let n in data.fish[i]) {
+                text = (`${text}<br>execute if score @s spfish.${data.fish[i][n].name} matches 1.. if score @s lvl.fish matches ${i} run scoreboard players operation @s lvl.fish.progress += fish.${i}.${data.fish[i][n].name} lvl.rates`);
+            }
+        }
+
         document.getElementById('sp:level/main').innerHTML = (`${text}`);
 
         // sp:load
         let text2 = "";
+        // mining
+        text2 = `${text2}<br><br># mining`
         for (let i in data.mine) {
             text2 = `${text2}<br>## Lv. ${i}`
             for (let n in data.mine[i]) {
                 text2 = (`${text2}<br>scoreboard players set mine.${data.mine[i][n].name} lvl.rates ${data.mine[i][n].amount}`);
             }
         }
+        // fishing
+        text2 = `${text2}<br><br># fishing`
+        for (let i in data.fish) {
+            text2 = `${text2}<br>## Lv. ${i}`
+            for (let n in data.fish[i]) {
+                text2 = (`${text2}<br>scoreboard players set fish.${data.fish[i][n].name} lvl.rates ${data.fish[i][n].amount}`);
+            }
+        }
+
         document.getElementById('sp:load').innerHTML = (`${text2}`);
     });
 </script>

@@ -21,7 +21,15 @@
         ]
     ],
     "fish": [
-
+        [
+            { "name": "catch", "amount": "1" }
+        ],
+        [
+            { "name": "catch", "amount": "1" }
+        ],
+        [
+            { "name": "catch", "amount": "3" }
+        ]
     ],
     "farm": [
         
