@@ -9,7 +9,7 @@
 - - [ ] Sell for money
 - [x] Fishing
 - - [x] Track fishing (fish_caught objective)
-- - [ ] Custom loot table (only fish)
+- - [x] Custom loot table (only fish)
 - - [x] Level up
 - - [ ] Sell for money
 - [ ] The act of cutting down trees
@@ -23,8 +23,20 @@
 - - [ ] Re-generate crops
 - - [ ] Sell for money
 
+### Buying/Selling
+
+- [ ] Implement currency system
+- - [ ] Craftable between gold nuggets / ingots
+
 ### Leveling
 Numbers subject to change.
+
+#### Tools
+- [ ] Implement level-locked items
+- - [ ] Use item attribute? (eg. `lockedLevelMine: 1b`)
+- - [ ] Apply weakness/mining fatigue if not eligible
+- - [ ] Add Lore (eg. `Requires Mining 1 to use`) to level-locked items
+- - [ ] Play sound if tool is not eligible?
 
 #### Mining
 - [x] Mining **LV. 0** (0/10)
