@@ -8,8 +8,8 @@
 - - [ ] Re-generate blocks
 - - [ ] Sell for money
 - [ ] Fishing
-- - [ ] Track fishing
-- - [ ] Custom loot table
+- - [ ] Track fishing (fish_caught objective)
+- - [ ] Custom loot table (obly fish)
 - - [x] Level up
 - - [ ] Sell for money
 - [ ] The act of cutting down trees
