@@ -84,7 +84,7 @@ scoreboard players set mine.2 lvl.goal 230
 scoreboard players set mine.3 lvl.goal 600
 ## fishing
 scoreboard players set fish.0 lvl.goal 5
-scoreboard players set fish.1 lvl.goal 25
+scoreboard players set fish.1 lvl.goal 20
 scoreboard players set fish.2 lvl.goal 35
 scoreboard players set fish.3 lvl.goal 50
 
