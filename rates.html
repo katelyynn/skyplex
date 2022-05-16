@@ -46,7 +46,7 @@
         for (let i in data.mine) {
             text2 = `${text2}<br>## Lv. ${i}`
             for (let n in data.mine[i]) {
-                text2 = (`${text2}<br>scoreboard players set mine.${data.mine[i][n].name} lvl.rates ${data.mine[i][n].amount}`);
+                text2 = (`${text2}<br>scoreboard players set mine.${i}.${data.mine[i][n].name} lvl.rates ${data.mine[i][n].amount}`);
             }
         }
         // fishing
@@ -54,7 +54,7 @@
         for (let i in data.fish) {
             text2 = `${text2}<br>## Lv. ${i}`
             for (let n in data.fish[i]) {
-                text2 = (`${text2}<br>scoreboard players set fish.${data.fish[i][n].name} lvl.rates ${data.fish[i][n].amount}`);
+                text2 = (`${text2}<br>scoreboard players set fish.${i}.${data.fish[i][n].name} lvl.rates ${data.fish[i][n].amount}`);
             }
         }
 
