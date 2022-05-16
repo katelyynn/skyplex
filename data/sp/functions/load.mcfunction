@@ -34,6 +34,10 @@ execute if score ver.month internal >= 7 internal if score ver.month internal <=
 execute if score ver.month internal >= 10 internal if score ver.month internal <= 12 internal run bossbar set sp:ver color white
 
 
+# display player level in trigger
+scoreboard objectives add lvl.call trigger
+
+
 # track player level requirements
 scoreboard objectives add spmine.stone minecraft.mined:minecraft.stone
 scoreboard objectives add spmine.cobblestone minecraft.mined:minecraft.cobblestone
