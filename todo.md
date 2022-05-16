@@ -7,8 +7,8 @@
 - - [x] Level up
 - - [ ] Re-generate blocks
 - - [ ] Sell for money
-- [ ] Fishing
-- - [ ] Track fishing (fish_caught objective)
+- [x] Fishing
+- - [x] Track fishing (fish_caught objective)
 - - [ ] Custom loot table (only fish)
 - - [x] Level up
 - - [ ] Sell for money
