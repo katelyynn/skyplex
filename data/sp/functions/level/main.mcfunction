@@ -36,3 +36,4 @@ scoreboard players reset @s spmine.cobblestone
 scoreboard players reset @s spmine.coal_ore
 scoreboard players reset @s spmine.iron_ore
 scoreboard players reset @s spmine.gold_ore
+scoreboard players reset @s spfish.catch
