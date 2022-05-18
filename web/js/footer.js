@@ -10,6 +10,7 @@ document.getElementById('footer').innerHTML =
 </span>
 <span class="links">
     <a href="/">Home</a>
+    <a href="https://github.com/skyplex">View Source</a>
 </span>
 </div>
 `);
