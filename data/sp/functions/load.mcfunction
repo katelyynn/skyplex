@@ -42,6 +42,7 @@ scoreboard objectives add ore.timer dummy
 scoreboard players set ore.coal_ore internal 200
 scoreboard players set ore.iron_ore internal 300
 scoreboard players set ore.gold_ore internal 500
+scoreboard players set ore.diamond_ore internal 800
 
 
 # display player level in trigger
@@ -55,6 +56,7 @@ scoreboard objectives add spmine.cobblestone minecraft.mined:minecraft.cobblesto
 scoreboard objectives add spmine.coal_ore minecraft.mined:minecraft.coal_ore
 scoreboard objectives add spmine.iron_ore minecraft.mined:minecraft.iron_ore
 scoreboard objectives add spmine.gold_ore minecraft.mined:minecraft.gold_ore
+scoreboard objectives add spmine.diamond_ore minecraft.mined:minecraft.diamond_ore
 ## fishing
 scoreboard objectives add spfish.catch minecraft.custom:fish_caught
 ## farming

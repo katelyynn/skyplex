@@ -15,3 +15,4 @@ execute if block ~ ~ ~ air if score @s ore.state matches 2 run function sp:syste
 execute if entity @s[tag=ore.coal_ore] if score @s ore.timer >= ore.coal_ore internal run function sp:system/mine/finish
 execute if entity @s[tag=ore.iron_ore] if score @s ore.timer >= ore.iron_ore internal run function sp:system/mine/finish
 execute if entity @s[tag=ore.gold_ore] if score @s ore.timer >= ore.gold_ore internal run function sp:system/mine/finish
+execute if entity @s[tag=ore.diamond_ore] if score @s ore.timer >= ore.diamond_ore internal run function sp:system/mine/finish
