@@ -10,7 +10,7 @@
 - [ ] Mining
 - - [x] Track mining
 - - [x] Level up
-- - [ ] Re-generate blocks
+- - [x] Re-generate blocks
 - - [ ] Sell for money
 - [ ] Fishing
 - - [x] Track fishing (fish_caught objective)
