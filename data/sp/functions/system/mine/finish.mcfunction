@@ -9,3 +9,4 @@ execute if entity @s[tag=ore.gold_ore] run setblock ~ ~ ~ gold_ore
 # reset scores
 scoreboard players set @s ore.state 1
 scoreboard players reset @s ore.timer
+tag @s remove ore.timer
