@@ -8,7 +8,7 @@ execute if entity @s[tag=ore.gold_ore] run setblock ~ ~ ~ gold_ore
 execute if entity @s[tag=ore.diamond_ore] run setblock ~ ~ ~ diamond_ore
 
 # create particle
-particle minecraft:block stone ~ ~ ~ 0 0 0 3 20
+particle minecraft:flame ~ ~ ~ 0.15 0.15 0.15 3 20
 
 # reset scores
 scoreboard players set @s ore.state 1
