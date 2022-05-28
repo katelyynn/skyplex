@@ -1,7 +1,6 @@
 {
     "values": [
         "fm:prepare",
-        "sp:load",
-        "instantpickup:gen-instant-pickup"
+        "sp:load"
     ] 
 }

@@ -1,6 +1,5 @@
 {
     "values": [
-        "sp:main",
-        "instantpickup:check-instant-pickup"
+        "sp:main"
     ] 
 }
