@@ -12,6 +12,10 @@ bossbar set sp:ver players @a[tag=!ignore_ver]
 execute store result bossbar sp:ver value run scoreboard players get ver.month internal
 
 
+# passive systems
+execute as @e[tag=ore.generic] at @s run function sp:system/mine/generic
+
+
 # track player level requirements
 execute as @a run function sp:level/main
 

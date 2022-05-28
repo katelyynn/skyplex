@@ -34,6 +34,16 @@ execute if score ver.month internal >= 7 internal if score ver.month internal <=
 execute if score ver.month internal >= 10 internal if score ver.month internal <= 12 internal run bossbar set sp:ver color white
 
 
+# ore states
+scoreboard objectives add ore.state dummy
+scoreboard objectives add ore.timer dummy
+
+# ore respawns
+scoreboard players set ore.coal_ore internal 200
+scoreboard players set ore.iron_ore internal 300
+scoreboard players set ore.gold_ore internal 500
+
+
 # display player level in trigger
 scoreboard objectives add stats trigger
 
