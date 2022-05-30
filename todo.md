@@ -7,11 +7,11 @@
 
 ### Professions
 
-- [ ] Mining
+- [x] Mining
 - - [x] Track mining
 - - [x] Level up
 - - [x] Re-generate blocks
-- - [ ] Sell for money
+- - [x] Sell for money
 - [ ] Fishing
 - - [x] Track fishing (fish_caught objective)
 - - [x] Custom loot table (only fish)
@@ -31,6 +31,7 @@
 ### Buying/Selling
 
 - [ ] Implement currency system
+- - [x] Obtain gold nuggets
 - - [ ] Craftable between gold nuggets / ingots
 
 ### Leveling
@@ -60,17 +61,13 @@ Numbers subject to change.
 
 ### Islands(?)
 
-- [ ] Starting
+- [x] Starting
 - Very limited, only basics
-- Mines: Coal, Coal Block, Iron
-- [ ] Caverns
-- Cave island
-- Mines: Iron, Iron Block, Gold, Redstone?
-- Locked to Mining 2?
+- Mines: Coal, Iron, Gold
 - [ ] Deep Caverns
 - Deeper cave island, best overworld ores & normal
-- Mines: Iron, Iron Block, Gold, Gold Block, Redstone, Diamond)
-- Much deeper down: Emerald, Emerald Block, Diamond Block, Obsidian)
+- Mines: Iron, Iron Block, Gold, Gold Block, Redstone, Diamond
+- Much deeper down: Emerald, Emerald Block, Diamond Block, Obsidian
 - Locked to Mining 5?
 - [ ] Farming
 - Farms with variated crops (different crops = more xp?)
