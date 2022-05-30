@@ -105,22 +105,15 @@ scoreboard players set fish.3 lvl.goal 50
 scoreboard objectives add lvl.rates dummy
 
 # mining
-## Lv. 1
-scoreboard players set mine.1.stone lvl.rates 1
-scoreboard players set mine.1.cobblestone lvl.rates 1
-scoreboard players set mine.1.coal_ore lvl.rates 2
-scoreboard players set mine.1.iron_ore lvl.rates 3
-## Lv. 2
-scoreboard players set mine.2.stone lvl.rates 1
-scoreboard players set mine.2.cobblestone lvl.rates 1
-scoreboard players set mine.2.coal_ore lvl.rates 3
-scoreboard players set mine.2.iron_ore lvl.rates 5
-scoreboard players set mine.2.gold_ore lvl.rates 6
+scoreboard players set mine.cobblestone lvl.rates 1
+scoreboard players set mine.coal lvl.rates 2
+scoreboard players set mine.raw_iron lvl.rates 3
+scoreboard players set mine.raw_gold lvl.rates 3
+scoreboard players set mine.diamond lvl.rates 4
+scoreboard players set mine.lapis_lazuli lvl.rates 0
+scoreboard players set mine.redstone lvl.rates 0
 
 # fishing
-## Lv. 1
-scoreboard players set fish.1.catch lvl.rates 1
-## Lv. 2
-scoreboard players set fish.2.catch lvl.rates 3
+scoreboard players set fish.catch lvl.rates 1
 
 ## generated via rates.html
