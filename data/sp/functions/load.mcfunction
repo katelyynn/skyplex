@@ -53,10 +53,10 @@ scoreboard objectives add stats trigger
 ## mining
 scoreboard objectives add spmine.stone minecraft.mined:minecraft.stone
 scoreboard objectives add spmine.cobblestone minecraft.mined:minecraft.cobblestone
-scoreboard objectives add spmine.coal_ore minecraft.mined:minecraft.coal_ore
-scoreboard objectives add spmine.iron_ore minecraft.mined:minecraft.iron_ore
-scoreboard objectives add spmine.gold_ore minecraft.mined:minecraft.gold_ore
-scoreboard objectives add spmine.diamond_ore minecraft.mined:minecraft.diamond_ore
+scoreboard objectives add spmine.coal minecraft.mined:minecraft.coal_ore
+scoreboard objectives add spmine.raw_iron minecraft.mined:minecraft.iron_ore
+scoreboard objectives add spmine.raw_gold minecraft.mined:minecraft.gold_ore
+scoreboard objectives add spmine.diamond minecraft.mined:minecraft.diamond_ore
 ## fishing
 scoreboard objectives add spfish.catch minecraft.custom:fish_caught
 ## farming

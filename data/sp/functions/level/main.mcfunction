@@ -19,7 +19,7 @@ execute if score @s spfish.catch matches 1.. if score @s lvl.fish matches 1 run 
 
 scoreboard players reset @s spmine.stone
 scoreboard players reset @s spmine.cobblestone
-scoreboard players reset @s spmine.coal_ore
-scoreboard players reset @s spmine.iron_ore
-scoreboard players reset @s spmine.gold_ore
+scoreboard players reset @s spmine.coal
+scoreboard players reset @s spmine.raw_iron
+scoreboard players reset @s spmine.raw_gold
 scoreboard players reset @s spfish.catch
