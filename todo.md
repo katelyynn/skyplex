@@ -21,7 +21,6 @@
 - - - [ ] Attribute modifiers
 - - - [ ] Unbreakable
 - - - [ ] SkullOwner
-- - - [ ] 
 - - [ ] Make public
 
 - [x] Make rates generatable
