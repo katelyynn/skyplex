@@ -10,6 +10,18 @@
 - [ ] Trading frameworks
 - - [x] Make it work for Skyplex
 - - [x] Convert to JSON objects
+- - [ ] Add additional entity NBT
+- - - [ ] Silent
+- - - [ ] NoGravity
+- - - [ ] HandItems (?)
+- - [ ] Add additional item NBT
+- - - [ ] Enchanting
+- - - [ ] Enchanting (not visible)
+- - - [ ] Damage
+- - - [ ] Attribute modifiers
+- - - [ ] Unbreakable
+- - - [ ] SkullOwner
+- - - [ ] 
 - - [ ] Make public
 
 - [x] Make rates generatable
