@@ -5,6 +5,15 @@
 - [ ] Fully remove all native crafting
 - - [ ] Craftable currency (between nuggets / ingots)
 
+### Frameworks
+
+- [ ] Trading frameworks
+- - [x] Make it work for Skyplex
+- - [x] Convert to JSON objects
+- - [ ] Make public
+
+- [x] Make rates generatable
+
 ### Professions
 
 - [x] Mining
@@ -12,11 +21,11 @@
 - - [x] Level up
 - - [x] Re-generate blocks
 - - [x] Sell for money
-- [ ] Fishing
+- [x] Fishing
 - - [x] Track fishing (fish_caught objective)
 - - [x] Custom loot table (only fish)
 - - [x] Level up
-- - [ ] Sell for money
+- - [x] Sell for money
 - [ ] The act of cutting down trees
 - - [ ] Track mining
 - - [ ] Level up
