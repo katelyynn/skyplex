@@ -14,6 +14,12 @@
 
 - [x] Make rates generatable
 
+- [ ] Implement Quests
+- - [ ] Generate
+- - [ ] Start a quest
+- - [ ] Complete a quest
+- - [ ] Retrieve rewards
+
 ### Professions
 
 - [x] Mining
