@@ -30,3 +30,10 @@ execute as @a run function sp:level/up/check
 # call player's level in trigger
 scoreboard players enable @a[tag=!ignore_call] stats
 execute as @a if score @s stats matches 1.. run function sp:level/call
+
+
+# effect villagers
+effect give @e[type=villager] resistance 2 255 true
+effect give @e[type=villager] regeneration 2 255 true
+effect give @e[type=villager] fire_resistance 2 255 true
+effect give @e[type=villager] water_breathing 2 255 true
