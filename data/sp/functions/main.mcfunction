@@ -15,6 +15,8 @@ execute store result bossbar sp:ver value run scoreboard players get ver.month i
 # passive systems
 scoreboard players add @e[tag=ore.timer] ore.timer 1
 execute as @e[tag=ore.generic] at @s run function sp:system/mine/generic
+# quests
+execute as @a at @s run function sp:system/quest/generic
 
 
 # track player level requirements
