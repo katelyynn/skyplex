@@ -56,6 +56,9 @@ scoreboard objectives add quest.holding_id dummy
 scoreboard objectives add quest_1 dummy
 
 
+## generated via quests.html
+
+
 # track player level requirements
 ## mining
 scoreboard objectives add spmine.stone minecraft.mined:minecraft.stone
