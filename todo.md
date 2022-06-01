@@ -15,7 +15,7 @@
 - - - [ ] NoGravity
 - - - [ ] HandItems (?)
 - - [ ] Add additional item NBT
-- - - [ ] Enchanting
+- - - [x] Enchanting
 - - - [ ] Enchanting (not visible)
 - - - [ ] Damage
 - - - [ ] Attribute modifiers
