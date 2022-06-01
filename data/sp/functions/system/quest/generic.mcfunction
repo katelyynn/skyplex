@@ -7,3 +7,9 @@ execute if data entity @s SelectedItem.tag.QuestID run scoreboard players set @s
 
 # detect quest id
 execute store result score @s quest.holding_id run data get entity @s SelectedItem.tag.QuestID
+
+
+# start quests
+execute if score @s quest.holding >= 1 internal if score quest.holding_id internal matches 1 run function sp:system/quest/1/start
+
+## generated via quests.html
