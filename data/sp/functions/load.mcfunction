@@ -52,6 +52,8 @@ scoreboard objectives add stats trigger
 # quests
 scoreboard objectives add quest.holding dummy
 scoreboard objectives add quest.holding_id dummy
+## list
+scoreboard objectives add quest_1 dummy
 
 
 # track player level requirements
