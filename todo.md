@@ -19,7 +19,7 @@
 - - - [ ] Enchanting (not visible)
 - - - [x] Damage
 - - - [ ] Attribute modifiers
-- - - [ ] Unbreakable
+- - - [x] Unbreakable
 - - - [ ] SkullOwner
 - - [ ] Make public
 
