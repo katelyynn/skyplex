@@ -17,7 +17,7 @@
 - - [ ] Add additional item NBT
 - - - [x] Enchanting
 - - - [ ] Enchanting (not visible)
-- - - [ ] Damage
+- - - [x] Damage
 - - - [ ] Attribute modifiers
 - - - [ ] Unbreakable
 - - - [ ] SkullOwner
