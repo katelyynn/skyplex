@@ -25,13 +25,13 @@ bossbar add sp:ver ""
 bossbar set sp:ver max 12
 # colour
 ## Q1
-execute if score ver.month internal >= 1 internal if score ver.month internal <= 3 internal run bossbar set sp:ver color yellow
+execute if score ver.month internal matches 1..3 run bossbar set sp:ver color yellow
 ## Q2
-execute if score ver.month internal >= 4 internal if score ver.month internal <= 6 internal run bossbar set sp:ver color green
+execute if score ver.month internal matches 4..6 run bossbar set sp:ver color green
 ## Q3
-execute if score ver.month internal >= 7 internal if score ver.month internal <= 9 internal run bossbar set sp:ver color red
+execute if score ver.month internal matches 7..9 run bossbar set sp:ver color red
 ## Q4
-execute if score ver.month internal >= 10 internal if score ver.month internal <= 12 internal run bossbar set sp:ver color white
+execute if score ver.month internal matches 10..12 run bossbar set sp:ver color white
 
 
 # ore states
