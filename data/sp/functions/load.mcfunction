@@ -52,8 +52,9 @@ scoreboard objectives add stats trigger
 # quests
 scoreboard objectives add quest.holding dummy
 scoreboard objectives add quest.holding_id dummy
-## list
+## quest 1
 scoreboard objectives add quest_1 dummy
+scoreboard objectives add quest_1.seen dummy
 
 
 ## generated via quests.html

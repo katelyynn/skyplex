@@ -11,8 +11,9 @@ execute store result score @s quest.holding_id run data get entity @s SelectedIt
 
 # start quests
 ## quest 1
-execute if score @s quest.holding matches 1.. if score quest.holding_id internal matches 1 run scoreboard players set @s quest_1 1
-execute if score @s quest.holding matches 1.. if score quest.holding_id internal matches 1 run function sp:system/quest/1/start
-execute if score @s quest.holding matches 1.. if score quest.holding_id internal matches 1 run clear @s emerald{tag:{QuestID:1}} 1
+execute if score @s quest.holding matches 1.. if score @s quest.holding_id matches 1 run scoreboard players set @s quest_1 1
+execute if score @s quest.holding matches 1.. if score @s quest.holding_id matches 1 unless score @s quest_1.seen matches 1.. run function sp:system/quest/1/start
+execute if score @s quest.holding matches 1.. if score @s quest.holding_id matches 1 run scoreboard players set @s quest_1.seen 1
+execute if score @s quest.holding matches 1.. if score @s quest.holding_id matches 1 run clear @s emerald{tag:{QuestID:1}} 1
 
 ## generated via quests.html
