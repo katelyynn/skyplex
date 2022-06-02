@@ -2,4 +2,4 @@
 ## start 1
 
 
-say hi
+say "quest started (1)"
