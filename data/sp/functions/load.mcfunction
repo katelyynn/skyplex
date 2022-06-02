@@ -23,15 +23,6 @@ scoreboard players set 12 internal 12
 # bossbars
 bossbar add sp:ver ""
 bossbar set sp:ver max 12
-# colour
-## Q1
-execute if score ver.month internal matches 1..3 run bossbar set sp:ver color yellow
-## Q2
-execute if score ver.month internal matches 4..6 run bossbar set sp:ver color green
-## Q3
-execute if score ver.month internal matches 7..9 run bossbar set sp:ver color red
-## Q4
-execute if score ver.month internal matches 10..12 run bossbar set sp:ver color white
 
 
 # ore states
