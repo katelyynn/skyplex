@@ -21,5 +21,11 @@ execute if score @s quest.holding matches 1.. if score @s quest.holding_id match
 execute if score @s quest.holding matches 1.. if score @s quest.holding_id matches 2 unless score @s quest_2.seen matches 1.. run function sp:system/quest/2/start
 execute if score @s quest.holding matches 1.. if score @s quest.holding_id matches 2 unless score @s quest_2.seen matches 1.. run scoreboard players set @s quest_2.seen 1
 execute if score @s quest.holding matches 1.. if score @s quest.holding_id matches 2 unless score @s quest_2.seen matches 1.. run clear @s emerald{QuestID:2} 1
+## quest 3
+# start
+execute if score @s quest.holding matches 1.. if score @s quest.holding_id matches 3 unless score @s quest_3.seen matches 1.. run scoreboard players set @s quest_3 1
+execute if score @s quest.holding matches 1.. if score @s quest.holding_id matches 3 unless score @s quest_3.seen matches 1.. run function sp:system/quest/3/start
+execute if score @s quest.holding matches 1.. if score @s quest.holding_id matches 3 unless score @s quest_3.seen matches 1.. run scoreboard players set @s quest_3.seen 1
+execute if score @s quest.holding matches 1.. if score @s quest.holding_id matches 3 unless score @s quest_3.seen matches 1.. run clear @s emerald{QuestID:3} 1
 
 ## generated via quests.html
