@@ -40,6 +40,23 @@ scoreboard players set ore.diamond_ore internal 800
 scoreboard objectives add stats trigger
 
 
+# quests
+scoreboard objectives add quest.holding dummy
+scoreboard objectives add quest.holding_id dummy
+## quest 1
+scoreboard objectives add quest_1 dummy
+scoreboard objectives add quest_1.seen dummy
+## quest 2
+scoreboard objectives add quest_2 dummy
+scoreboard objectives add quest_2.seen dummy
+## quest 3
+scoreboard objectives add quest_3 dummy
+scoreboard objectives add quest_3.seen dummy
+
+
+## generated via quests.html
+
+
 # track player level requirements
 ## mining
 scoreboard objectives add spmine.stone minecraft.mined:minecraft.stone
