@@ -46,6 +46,9 @@ scoreboard objectives add quest.holding_id dummy
 ## quest 1
 scoreboard objectives add quest_1 dummy
 scoreboard objectives add quest_1.seen dummy
+## quest 2
+scoreboard objectives add quest_2 dummy
+scoreboard objectives add quest_2.seen dummy
 
 
 ## generated via quests.html
