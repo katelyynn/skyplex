@@ -1,5 +1,7 @@
 ## quest 3
-tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"♦","color":"gold"},{"text":"] ","color":"dark_gray"},{"text":"Quest finished! ","color":"gold"},{"text":"Ben's Lucky Sword","color":"yellow"},{"text":" Rewards:","color":"gold"}]
+tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"♦","color":"gold"},{"text":"] ","color":"dark_gray"},{"text":"Quest finished! ","color":"gold"},{"text":"Ben's Lucky Sword","color":"yellow"}]
+tellraw @s ""
+tellraw @s {"text":"Rewards:","color":"gold"}
 give @s minecraft:barrier 10
 tellraw @s {"text":"10x Barrier","color":"yellow"}
 give @s minecraft:structure_void 1
