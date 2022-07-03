@@ -22,8 +22,12 @@ execute if score ver.month internal matches 10..12 run bossbar set sp:ver color 
 
 
 # passive systems
+## mine
 scoreboard players add @e[tag=ore.timer] ore.timer 1
 execute as @e[tag=ore.generic] at @s run function sp:system/mine/generic
+## farm
+scoreboard players add @e[tag=farm.timer] farm.timer 1
+execute as @e[tag=farm.generic] at @s run function sp:system/farm/generic
 # quests
 execute as @a at @s run function sp:system/quest/generic
 
