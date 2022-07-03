@@ -25,15 +25,18 @@ bossbar add sp:ver ""
 bossbar set sp:ver max 12
 
 
-# ore states
+# passive systems
+## mine
 scoreboard objectives add ore.state dummy
 scoreboard objectives add ore.timer dummy
-
-# ore respawns
 scoreboard players set ore.coal_ore internal 200
 scoreboard players set ore.iron_ore internal 300
 scoreboard players set ore.gold_ore internal 500
 scoreboard players set ore.diamond_ore internal 800
+## farm
+scoreboard objectives add farm.state dummy
+scoreboard objectives add farm.timer dummy
+scoreboard players set farm.wheat internal 10
 
 
 # display player level in trigger
