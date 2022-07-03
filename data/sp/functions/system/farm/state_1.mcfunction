@@ -1,5 +1,4 @@
 # SP farm generic state 1
-## - switch to cobblestone
 ## - start timer
 
 
