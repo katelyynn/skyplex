@@ -113,6 +113,11 @@ scoreboard players set fish.0 lvl.goal 5
 scoreboard players set fish.1 lvl.goal 20
 scoreboard players set fish.2 lvl.goal 35
 scoreboard players set fish.3 lvl.goal 50
+## farming
+scoreboard players set farm.0 lvl.goal 5
+scoreboard players set farm.1 lvl.goal 20
+scoreboard players set farm.2 lvl.goal 35
+scoreboard players set farm.3 lvl.goal 50
 
 
 # level rates
