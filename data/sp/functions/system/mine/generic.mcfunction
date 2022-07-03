@@ -6,7 +6,7 @@ execute as @a[distance=..0.7] at @s run tp @s ~ ~0.7 ~
 
 
 # range check
-execute unless score @s ore.state >= 1 internal unless score @s ore.state <= 3 internal run scoreboard players set @s ore.state 1
+execute unless score @s ore.state matches 1..3 run scoreboard players set @s ore.state 1
 
 # ore present (state 1 - 2)
 execute if block ~ ~ ~ air if score @s ore.state matches 1 run function sp:system/mine/state_1
