@@ -1,4 +1,5 @@
 ## skyplex todo
+(for me), not a todo for the project as a whole.
 
 ### Crafting
 
@@ -21,7 +22,7 @@
 - - - [ ] Attribute modifiers
 - - - [x] Unbreakable
 - - - [ ] SkullOwner
-- - [ ] Make public
+- - [x] Make public
 
 - [x] Make rates generatable
 
