@@ -8,10 +8,10 @@ execute as @a[distance=..0.7] at @s run tp @s ~ ~0.7 ~
 # range check
 execute unless score @s ore.state matches 1..3 run scoreboard players set @s ore.state 1
 
-# ore present (state 1 - 2)
+# ore present (state 1 -> 2)
 execute if block ~ ~ ~ air if score @s ore.state matches 1 run function sp:system/mine/state_1
 
-# cobblestone present (state 2 - 3)
+# cobblestone present (state 2 -> 3)
 execute if block ~ ~ ~ air if score @s ore.state matches 2 run function sp:system/mine/state_2
 
 
