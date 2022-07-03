@@ -2,6 +2,8 @@
 ## Fishing
 
 
+function sp:level/up/generic
+
 # reset progress
 scoreboard players set @s lvl.fish.progress 0
 

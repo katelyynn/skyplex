@@ -7,13 +7,6 @@ execute unless score @s lvl.wood matches 1.. run scoreboard players set @s lvl.w
 execute unless score @s lvl.farm matches 1.. run scoreboard players set @s lvl.farm 1
 execute unless score @s lvl.food matches 1.. run scoreboard players set @s lvl.food 1
 
-# sfx
-execute unless score @s lvl.mine matches 1.. run playsound minecraft:entity.player.levelup player @s
-execute unless score @s lvl.fish matches 1.. run playsound minecraft:entity.player.levelup player @s
-execute unless score @s lvl.wood matches 1.. run playsound minecraft:entity.player.levelup player @s
-execute unless score @s lvl.farm matches 1.. run playsound minecraft:entity.player.levelup player @s
-execute unless score @s lvl.food matches 1.. run playsound minecraft:entity.player.levelup player @s
-
 execute unless score @s lvl.mine.progress matches 1.. run scoreboard players set @s lvl.mine.progress 0
 execute unless score @s lvl.fish.progress matches 1.. run scoreboard players set @s lvl.fish.progress 0
 execute unless score @s lvl.wood.progress matches 1.. run scoreboard players set @s lvl.wood.progress 0
