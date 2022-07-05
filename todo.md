@@ -4,7 +4,7 @@
 ### Leveling rework
 2022.0705, **2022.07 MILESTONE**
 
-- [ ] Make level-calc generator (https://sky.plexion.dev/generate/levels)
+- [x] Make level-calc generator (https://sky.plexion.dev/generate/levels)
 - - Generates level values for **all** professions up to a very high number
 - [ ] Make xp-rates generator (https://sky.plexion.dev/generate/xp)
 - - Generates xp rates for each profession, [reference](https://canary.discord.com/channels/647916257013661698/648066193323851787/993959902840098856) (internal)

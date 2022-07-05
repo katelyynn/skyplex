@@ -103,21 +103,9 @@ scoreboard objectives add lvl.food.goal dummy
 
 
 # level goals
-## mining
-scoreboard players set mine.0 lvl.goal 10
-scoreboard players set mine.1 lvl.goal 125
-scoreboard players set mine.2 lvl.goal 230
-scoreboard players set mine.3 lvl.goal 600
-## fishing
-scoreboard players set fish.0 lvl.goal 5
-scoreboard players set fish.1 lvl.goal 20
-scoreboard players set fish.2 lvl.goal 35
-scoreboard players set fish.3 lvl.goal 50
-## farming
-scoreboard players set farm.0 lvl.goal 5
-scoreboard players set farm.1 lvl.goal 20
-scoreboard players set farm.2 lvl.goal 35
-scoreboard players set farm.3 lvl.goal 50
+## very hefty function, possibly move
+## to a defaults/calc reload function?
+function sp:calc/levels
 
 
 # level rates
