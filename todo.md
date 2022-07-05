@@ -1,6 +1,14 @@
 ## skyplex todo
 (for me), not a todo for the project as a whole.
 
+### Leveling rework
+2022.0705, **2022.07 MILESTONE**
+
+- [ ] Make level-calc generator (https://sky.plexion.dev/generate/levels)
+- - Generates level values for **all** professions up to a very high number
+- [ ] Make xp-rates generator (https://sky.plexion.dev/generate/xp)
+- - Generates xp rates for each profession, [reference](https://canary.discord.com/channels/647916257013661698/648066193323851787/993959902840098856) (internal)
+
 ### Crafting
 
 - [ ] Fully remove all native crafting
@@ -26,11 +34,11 @@
 
 - [x] Make rates generatable
 
-- [ ] Implement Quests
-- - [ ] Generate
-- - [ ] Start a quest
-- - [ ] Complete a quest
-- - [ ] Retrieve rewards
+- [x] Implement Quests
+- - [x] Generate
+- - [x] Start a quest
+- - [x] Complete a quest
+- - [x] Retrieve rewards
 
 ### Professions
 
@@ -50,9 +58,9 @@
 - - [ ] Re-generate blocks
 - - [ ] Sell for money
 - [ ] Farming
-- - [ ] Track farming
-- - [ ] Level up
-- - [ ] Re-generate crops
+- - [x] Track farming
+- - [x] Level up
+- - [x] Re-generate crops
 - - [ ] Sell for money
 
 ### Buying/Selling
