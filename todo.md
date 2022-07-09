@@ -69,7 +69,7 @@
 - - [ ] Craftable between gold nuggets / ingots
 
 ### Leveling
-Numbers subject to change.
+Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4).
 
 #### Tools
 - [ ] Implement level-locked items
@@ -78,20 +78,11 @@ Numbers subject to change.
 - - [ ] Add Lore (eg. `Requires Mining 1 to use`) to level-locked items
 - - [ ] Play sound if tool is not eligible?
 
-#### Mining
-- [x] Mining **LV. 0** (0/10)
-- [x] Mining **LV. 1** (0/125)
-- [x] Mining **LV. 2** (0/600)
-
-#### Fishing
-- [x] Fishing **LV. 0** (0/5)
-- [x] Fishing **LV. 1** (0/50)
-- [x] Fishing **LV. 2** (0/200)
-
-#### Farming
-- [ ] Farming **LV. 0** (0/120)
-- [ ] Farming **LV. 1** (0/240)
-- [ ] Farming **LV. 2** (0/1000)
+#### Boosters
+- [ ] XP booster item
+- - [ ] Lasts 5 min
+- - [ ] Given every +10 levels
+- - [ ] Boosts by +`N/A`XP
 
 ### Islands(?)
 
