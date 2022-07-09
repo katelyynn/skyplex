@@ -4,7 +4,7 @@
 
 # calc level goal
 ## store temp value for calc
-scoreboard players operation @s lvl.mine.goal_calc = @s lvl.mine.goal
+scoreboard players operation @s lvl.mine.goal_calc = @s lvl.mine
 ## 100n
 scoreboard players operation @s lvl.mine.goal_calc *= multiply lvl.goal
 ## +500
