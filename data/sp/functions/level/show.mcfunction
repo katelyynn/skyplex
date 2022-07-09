@@ -2,6 +2,10 @@
 ## depending on tool
 
 
+## TODO: run functions based on tool
+## & calculate levels on fly
+
+
 # store current level goal
 ## mining
 execute if score @s lvl.mine matches 0 store result score @s lvl.mine.goal run scoreboard players get mine.0 lvl.goal
