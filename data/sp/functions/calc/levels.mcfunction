@@ -1,4 +1,5 @@
 scoreboard players set levels_calc internal 1
+tellraw @a[tag=logs] {"text":"Re-calculated level distribution","color":"yellow"}
 
 scoreboard players set generic.1 lvl.goal 500
 scoreboard players set generic.2 lvl.goal 600
