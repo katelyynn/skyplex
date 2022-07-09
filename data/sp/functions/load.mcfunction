@@ -103,9 +103,10 @@ scoreboard objectives add lvl.food.goal dummy
 
 
 # level goals
-## very hefty function, possibly move
-## to a defaults/calc reload function?
-function sp:calc/levels
+## very hefty function, should only be
+## called upon level-rate changes to avoid
+## any lag on /reload
+execute unless score levels_calc internal matches 1.. run function sp:calc/levels
 
 
 # level rates

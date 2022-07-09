@@ -1,3 +1,5 @@
+scoreboard players set levels_calc internal 1
+
 scoreboard players set generic.1 lvl.goal 500
 scoreboard players set generic.2 lvl.goal 600
 scoreboard players set generic.3 lvl.goal 700
