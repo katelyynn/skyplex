@@ -80,33 +80,33 @@ scoreboard objectives add spfarm.sweet_berry_bush minecraft.mined:minecraft.swee
 
 # player levels
 scoreboard objectives add lvl.goal dummy
+scoreboard players set multiply lvl.goal 100
+scoreboard players set addition lvl.goal 400
 ## mining
 scoreboard objectives add lvl.mine dummy
 scoreboard objectives add lvl.mine.progress dummy
 scoreboard objectives add lvl.mine.goal dummy
+scoreboard objectives add lvl.mine.goal_calc dummy
 ## fishing
 scoreboard objectives add lvl.fish dummy
 scoreboard objectives add lvl.fish.progress dummy
 scoreboard objectives add lvl.fish.goal dummy
+scoreboard objectives add lvl.fish.goal_calc dummy
 ## foraging
 scoreboard objectives add lvl.wood dummy
 scoreboard objectives add lvl.wood.progress dummy
 scoreboard objectives add lvl.wood.goal dummy
+scoreboard objectives add lvl.wood.goal_calc dummy
 ## farming
 scoreboard objectives add lvl.farm dummy
 scoreboard objectives add lvl.farm.progress dummy
 scoreboard objectives add lvl.farm.goal dummy
+scoreboard objectives add lvl.farm.goal_calc dummy
 ## N/A
 scoreboard objectives add lvl.food dummy
 scoreboard objectives add lvl.food.progress dummy
 scoreboard objectives add lvl.food.goal dummy
-
-
-# level goals
-## very hefty function, should only be
-## called upon level-rate changes to avoid
-## any lag on /reload
-execute unless score levels_calc internal matches 1.. run function sp:calc/levels
+scoreboard objectives add lvl.food.goal_calc dummy
 
 
 # level rates

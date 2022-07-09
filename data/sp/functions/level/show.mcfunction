@@ -2,28 +2,15 @@
 ## depending on tool
 
 
-# store current level goal
-## mining
-execute if score @s lvl.mine matches 0 store result score @s lvl.mine.goal run scoreboard players get mine.0 lvl.goal
-execute if score @s lvl.mine matches 1 store result score @s lvl.mine.goal run scoreboard players get mine.1 lvl.goal
-execute if score @s lvl.mine matches 2 store result score @s lvl.mine.goal run scoreboard players get mine.2 lvl.goal
-execute if score @s lvl.mine matches 3 store result score @s lvl.mine.goal run scoreboard players get mine.3 lvl.goal
-## fishing
-execute if score @s lvl.fish matches 0 store result score @s lvl.fish.goal run scoreboard players get fish.0 lvl.goal
-execute if score @s lvl.fish matches 1 store result score @s lvl.fish.goal run scoreboard players get fish.1 lvl.goal
-execute if score @s lvl.fish matches 2 store result score @s lvl.fish.goal run scoreboard players get fish.2 lvl.goal
-execute if score @s lvl.fish matches 3 store result score @s lvl.fish.goal run scoreboard players get fish.3 lvl.goal
-## farming
-execute if score @s lvl.farm matches 0 store result score @s lvl.farm.goal run scoreboard players get farm.0 lvl.goal
-execute if score @s lvl.farm matches 1 store result score @s lvl.farm.goal run scoreboard players get farm.1 lvl.goal
-execute if score @s lvl.farm matches 2 store result score @s lvl.farm.goal run scoreboard players get farm.2 lvl.goal
-execute if score @s lvl.farm matches 3 store result score @s lvl.farm.goal run scoreboard players get farm.3 lvl.goal
+# calculate level goals
+function sp:level/calc/mine
+function sp:level/calc/fish
+function sp:level/calc/farm
 
 
 # none
 ## (hides actionbar)
 execute unless data entity @s SelectedItem run title @s actionbar ""
-
 
 # display current level
 ## mining
