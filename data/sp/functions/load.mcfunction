@@ -109,13 +109,6 @@ scoreboard objectives add lvl.food.goal dummy
 scoreboard objectives add lvl.food.goal_calc dummy
 
 
-# level goals
-## very hefty function, should only be
-## called upon level-rate changes to avoid
-## any lag on /reload
-execute unless score levels_calc internal matches 1.. run function sp:calc/levels
-
-
 # level rates
 scoreboard objectives add lvl.rates dummy
 
