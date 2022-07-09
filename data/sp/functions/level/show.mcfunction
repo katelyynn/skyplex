@@ -7,11 +7,6 @@
 
 
 # store current level goal
-## mining
-execute if score @s lvl.mine matches 0 store result score @s lvl.mine.goal run scoreboard players get mine.0 lvl.goal
-execute if score @s lvl.mine matches 1 store result score @s lvl.mine.goal run scoreboard players get mine.1 lvl.goal
-execute if score @s lvl.mine matches 2 store result score @s lvl.mine.goal run scoreboard players get mine.2 lvl.goal
-execute if score @s lvl.mine matches 3 store result score @s lvl.mine.goal run scoreboard players get mine.3 lvl.goal
 ## fishing
 execute if score @s lvl.fish matches 0 store result score @s lvl.fish.goal run scoreboard players get fish.0 lvl.goal
 execute if score @s lvl.fish matches 1 store result score @s lvl.fish.goal run scoreboard players get fish.1 lvl.goal
