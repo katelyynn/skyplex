@@ -112,11 +112,11 @@ function sp:calc/levels
 scoreboard objectives add lvl.rates dummy
 
 # mine
-scoreboard players set mine.cobblestone lvl.rates 1
-scoreboard players set mine.coal lvl.rates 2
-scoreboard players set mine.raw_iron lvl.rates 3
-scoreboard players set mine.raw_gold lvl.rates 3
-scoreboard players set mine.diamond lvl.rates 4
+scoreboard players set mine.cobblestone lvl.rates 5
+scoreboard players set mine.coal lvl.rates 10
+scoreboard players set mine.raw_iron lvl.rates 20
+scoreboard players set mine.raw_gold lvl.rates 30
+scoreboard players set mine.diamond lvl.rates 50
 scoreboard players set mine.lapis_lazuli lvl.rates 0
 scoreboard players set mine.redstone lvl.rates 0
 
