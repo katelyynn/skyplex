@@ -81,7 +81,7 @@ scoreboard objectives add spfarm.sweet_berry_bush minecraft.mined:minecraft.swee
 # player levels
 scoreboard objectives add lvl.goal dummy
 scoreboard players set multiply lvl.goal 100
-scoreboard players set addition lvl.goal 500
+scoreboard players set addition lvl.goal 400
 ## mining
 scoreboard objectives add lvl.mine dummy
 scoreboard objectives add lvl.mine.progress dummy
