@@ -36,7 +36,7 @@ scoreboard players set ore.diamond_ore internal 800
 ## farm
 scoreboard objectives add farm.state dummy
 scoreboard objectives add farm.timer dummy
-scoreboard players set farm.wheat internal 10
+scoreboard players set farm.wheat internal 120
 
 
 # display player level in trigger
@@ -111,8 +111,7 @@ scoreboard objectives add lvl.food.goal_calc dummy
 
 # level rates
 scoreboard objectives add lvl.rates dummy
-
-# mine
+## mining
 scoreboard players set mine.cobblestone lvl.rates 5
 scoreboard players set mine.coal lvl.rates 10
 scoreboard players set mine.raw_iron lvl.rates 20
@@ -120,11 +119,9 @@ scoreboard players set mine.raw_gold lvl.rates 30
 scoreboard players set mine.diamond lvl.rates 50
 scoreboard players set mine.lapis_lazuli lvl.rates 0
 scoreboard players set mine.redstone lvl.rates 0
-
-# fish
-scoreboard players set fish.catch lvl.rates 1
-
-# farm
+## fishing
+scoreboard players set fish.catch lvl.rates 10
+## farming
 scoreboard players set farm.wheat lvl.rates 1
 
 ## generated via rates.html
