@@ -26,14 +26,14 @@ bossbar set sp:ver max 12
 
 
 # passive systems
-## mine
+## mining
 scoreboard objectives add ore.state dummy
 scoreboard objectives add ore.timer dummy
 scoreboard players set ore.coal_ore internal 200
 scoreboard players set ore.iron_ore internal 300
 scoreboard players set ore.gold_ore internal 500
 scoreboard players set ore.diamond_ore internal 800
-## farm
+## farming
 scoreboard objectives add farm.state dummy
 scoreboard objectives add farm.timer dummy
 scoreboard players set farm.wheat internal 120
@@ -58,7 +58,6 @@ scoreboard objectives add quest_3.seen dummy
 ## quest 4
 scoreboard objectives add quest_4 dummy
 scoreboard objectives add quest_4.seen dummy
-
 
 ## generated via quests.html
 
