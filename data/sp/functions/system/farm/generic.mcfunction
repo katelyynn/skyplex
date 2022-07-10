@@ -1,6 +1,10 @@
 # SP generic farm loop
 
 
+# replace farmland
+execute unless block ~ ~-1 ~ farmland[moisture=7] run setblock ~ ~-1 ~ farmland[moisture=7]
+
+
 # range check
 execute unless score @s farm.state matches 1..3 run scoreboard players set @s farm.state 1
 
