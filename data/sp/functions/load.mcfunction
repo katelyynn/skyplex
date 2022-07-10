@@ -36,7 +36,7 @@ scoreboard players set ore.diamond_ore internal 800
 ## farming
 scoreboard objectives add farm.state dummy
 scoreboard objectives add farm.timer dummy
-scoreboard players set farm.wheat internal 120
+scoreboard players set farm.wheat internal 380
 
 
 # display player level in trigger
