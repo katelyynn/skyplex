@@ -10,7 +10,7 @@
 
 ### Crafting
 
-- [ ] Fully remove all native crafting
+- [x] Fully remove all native crafting
 - - [ ] Craftable currency (between nuggets / ingots)
 
 ### Frameworks
