@@ -10,14 +10,14 @@ for filename in os.scandir():
     "type": "minecraft:crafting_shaped",
     "key": {
         "#": {
-        "item": "minecraft:fire"
+            "item": "minecraft:air"
         }
     },
     "pattern": [
         "#"
     ],
     "result": {
-        "item": "minecraft:fire"
+        "item": "minecraft:barrier"
     }
 }''')
 
