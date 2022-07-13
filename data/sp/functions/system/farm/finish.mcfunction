@@ -5,7 +5,7 @@
 execute if entity @s[tag=farm.wheat] run setblock ~ ~ ~ wheat[age=7]
 
 # create particle & sfx
-particle minecraft:falling_spore_blossom ~ ~ ~ 0 0 0 0.09 2
+particle minecraft:falling_spore_blossom ~ ~ ~ 0 0 0 0.12 2
 playsound block.grass.fall block @a
 
 # reset scores
