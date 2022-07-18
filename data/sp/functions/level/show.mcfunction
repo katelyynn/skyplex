@@ -6,6 +6,8 @@
 function sp:level/calc/mine
 function sp:level/calc/fish
 function sp:level/calc/farm
+function sp:level/calc/wood
+function sp:level/calc/combat
 
 
 # none
