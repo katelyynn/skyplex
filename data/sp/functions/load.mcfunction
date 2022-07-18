@@ -91,6 +91,16 @@ scoreboard objectives add lvl.food dummy
 scoreboard objectives add lvl.food.progress dummy
 scoreboard objectives add lvl.food.goal dummy
 scoreboard objectives add lvl.food.goal_calc dummy
+## combat
+scoreboard objectives add lvl.combat dummy
+scoreboard objectives add lvl.combat.progress dummy
+scoreboard objectives add lvl.combat.goal dummy
+scoreboard objectives add lvl.combat.goal_calc dummy
+## farming
+scoreboard objectives add lvl.farm dummy
+scoreboard objectives add lvl.farm.progress dummy
+scoreboard objectives add lvl.farm.goal dummy
+scoreboard objectives add lvl.farm.goal_calc dummy
 
 
 # level rates
