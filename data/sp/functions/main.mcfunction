@@ -53,4 +53,4 @@ effect give @e[type=villager] regeneration 2 255 true
 effect give @e[type=villager] fire_resistance 2 255 true
 effect give @e[type=villager] water_breathing 2 255 true
 # face players
-execute as @e[type=villager] at @s facing entity @p[distance=..4] feet run tp ~ ~ ~
+execute as @e[type=villager] at @s facing entity @p[distance=..6] feet run tp ~ ~ ~
