@@ -23,12 +23,21 @@ execute if score @s spwood.acacia_log matches 1.. run scoreboard players operati
 execute if score @s spwood.dark_oak_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.dark_oak_log lvl.rates
 execute if score @s spwood.mangrove_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.mangrove_log lvl.rates
 
-## generated via rates.html
-
 scoreboard players reset @s spmine.cobblestone
 scoreboard players reset @s spmine.coal
 scoreboard players reset @s spmine.raw_iron
 scoreboard players reset @s spmine.raw_gold
 scoreboard players reset @s spmine.diamond
+scoreboard players reset @s spmine.lapis_lazuli
+scoreboard players reset @s spmine.redstone
 scoreboard players reset @s spfish.catch
 scoreboard players reset @s spfarm.wheat
+scoreboard players reset @s spwood.oak_log
+scoreboard players reset @s spwood.spruce_log
+scoreboard players reset @s spwood.birch_log
+scoreboard players reset @s spwood.jungle_log
+scoreboard players reset @s spwood.acacia_log
+scoreboard players reset @s spwood.dark_oak_log
+scoreboard players reset @s spwood.mangrove_log
+
+## generated via rates.html
