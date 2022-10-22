@@ -14,6 +14,14 @@ execute if score @s spmine.redstone matches 1.. run scoreboard players operation
 execute if score @s spfish.catch matches 1.. run scoreboard players operation @s lvl.fish.progress += fish.catch lvl.rates
 ## farming
 execute if score @s spfarm.wheat matches 1.. run scoreboard players operation @s lvl.farm.progress += farm.wheat lvl.rates
+## foraging
+execute if score @s spwood.oak_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.oak_log lvl.rates
+execute if score @s spwood.spruce_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.spruce_log lvl.rates
+execute if score @s spwood.birch_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.birch_log lvl.rates
+execute if score @s spwood.jungle_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.jungle_log lvl.rates
+execute if score @s spwood.acacia_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.acacia_log lvl.rates
+execute if score @s spwood.dark_oak_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.dark_oak_log lvl.rates
+execute if score @s spwood.mangrove_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.mangrove_log lvl.rates
 
 ## generated via rates.html
 

@@ -28,6 +28,9 @@ execute as @e[tag=ore.generic] at @s run function sp:system/mine/generic
 ## farm
 scoreboard players add @e[tag=farm.timer] farm.timer 1
 execute as @e[tag=farm.generic] at @s run function sp:system/farm/generic
+## wood
+scoreboard players add @e[tag=wood.timer] wood.timer 1
+execute as @e[tag=wood.generic] at @s run function sp:system/wood/generic
 # quests
 execute as @a at @s run function sp:system/quest/generic
 

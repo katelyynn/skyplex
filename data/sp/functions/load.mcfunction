@@ -117,5 +117,13 @@ scoreboard players set mine.redstone lvl.rates 0
 scoreboard players set fish.catch lvl.rates 10
 ## farming
 scoreboard players set farm.wheat lvl.rates 1
+## foraging
+scoreboard players set wood.oak_log lvl.rates 3
+scoreboard players set wood.spruce_log lvl.rates 3
+scoreboard players set wood.birch_log lvl.rates 3
+scoreboard players set wood.jungle_log lvl.rates 3
+scoreboard players set wood.acacia_log lvl.rates 3
+scoreboard players set wood.dark_oak_log lvl.rates 3
+scoreboard players set wood.mangrove_log lvl.rates 3
 
 ## generated via rates.html
