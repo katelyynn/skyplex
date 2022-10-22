@@ -5,7 +5,8 @@
 function sp:level/up/generic
 
 # reset progress
-scoreboard players set @s lvl.farm.progress 0
+## accounts for extra XP after level-up
+scoreboard players operation @s lvl.farm.progress -= @s lvl.farm
 
 # increase level
 scoreboard players operation @s lvl.farm += 1 internal
