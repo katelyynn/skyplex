@@ -61,6 +61,14 @@ scoreboard objectives add spfish.catch minecraft.custom:fish_caught
 scoreboard objectives add spfarm.wheat minecraft.mined:minecraft.wheat
 scoreboard objectives add spfarm.carrots minecraft.mined:minecraft.carrots
 scoreboard objectives add spfarm.sweet_berry_bush minecraft.mined:minecraft.sweet_berry_bush
+## foraging
+scoreboard objectives add spwood.oak_log minecraft.mined:minecraft.oak_log
+scoreboard objectives add spwood.spruce_log minecraft.mined:minecraft.spruce_log
+scoreboard objectives add spwood.birch_log minecraft.mined:minecraft.birch_log
+scoreboard objectives add spwood.jungle_log minecraft.mined:minecraft.jungle_log
+scoreboard objectives add spwood.acacia_log minecraft.mined:minecraft.acacia_log
+scoreboard objectives add spwood.dark_oak_log minecraft.mined:minecraft.dark_oak_log
+scoreboard objectives add spwood.mangrove_log minecraft.mined:minecraft.mangrove_log
 
 # player levels
 scoreboard objectives add lvl.goal dummy
