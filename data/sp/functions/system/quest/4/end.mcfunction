@@ -1,5 +1,6 @@
 ## quest 4 (Oscar's adventure)
 tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"♦","color":"gold"},{"text":"] ","color":"dark_gray"},{"text":"Quest finished! ","color":"gold"},{"text":"Oscar's adventure","color":"yellow"},{"text":"\n\nRewards:","color":"gold"}]
+scoreboard players set @s quest_4 2
 give @s minecraft:gold_nugget 10
 tellraw @s {"text":"10x Gold Nugget","color":"yellow"}
 give @s minecraft:emerald 1
