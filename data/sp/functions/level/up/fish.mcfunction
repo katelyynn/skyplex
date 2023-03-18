@@ -6,7 +6,7 @@ function sp:level/up/generic
 
 # reset progress
 ## accounts for extra XP after level-up
-scoreboard players operation @s lvl.fish.progress -= @s lvl.fish
+scoreboard players operation @s lvl.fish.progress -= @s lvl.fish.goal
 
 # increase level
 scoreboard players operation @s lvl.fish += 1 internal

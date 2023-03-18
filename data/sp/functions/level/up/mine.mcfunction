@@ -6,7 +6,7 @@ function sp:level/up/generic
 
 # reset progress
 ## accounts for extra XP after level-up
-scoreboard players operation @s lvl.mine.progress -= @s lvl.mine
+scoreboard players operation @s lvl.mine.progress -= @s lvl.mine.goal
 
 # increase level
 scoreboard players operation @s lvl.mine += 1 internal

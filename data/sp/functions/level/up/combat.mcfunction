@@ -6,7 +6,7 @@ function sp:level/up/generic
 
 # reset progress
 ## accounts for extra XP after level-up
-scoreboard players operation @s lvl.combat.progress -= @s lvl.combat
+scoreboard players operation @s lvl.combat.progress -= @s lvl.combat.goal
 
 # increase level
 scoreboard players operation @s lvl.combat += 1 internal
