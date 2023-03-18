@@ -39,9 +39,9 @@
 - - [x] Complete a quest
 - - [x] Retrieve rewards
 
-- [ ] Implement quest extras for implementation
-- - [ ] Retrieve XP reward
-- - [ ] Account for extra XP earned when reaching goal (minus from goal and add on after levelup)
+- [x] Implement quest extras for implementation
+- - [x] Retrieve XP reward
+- - [x] Account for extra XP earned when reaching goal (minus from goal and add on after levelup)
 
 ### Professions
 
