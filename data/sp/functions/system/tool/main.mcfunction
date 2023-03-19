@@ -38,6 +38,7 @@ execute if score @s temp_store.player_tool_profession matches 5 if score @s lvl.
 
 # effect player
 execute unless score @s temp_store.player_tool_eligible matches 1.. run effect give @s minecraft:mining_fatigue 1 255 true
+## TODO: make this only happen once
 execute if score @s temp_store.player_tool_eligible matches 1.. run effect clear @s minecraft:mining_fatigue
 
 # display ineligible
