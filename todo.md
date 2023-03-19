@@ -77,8 +77,8 @@ Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4)
 
 #### Tools
 - [ ] Implement level-locked items
-- - [ ] Use item attribute? (eg. `lockedLevelMine: 1b`)
-- - [ ] Apply weakness/mining fatigue if not eligible
+- - [x] Use item attribute? (eg. `lockedLevelMine: 1b`)
+- - [x] Apply weakness/mining fatigue if not eligible
 - - [ ] Add Lore (eg. `Requires Mining 1 to use`) to level-locked items
 - - [ ] Play sound if tool is not eligible?
 
