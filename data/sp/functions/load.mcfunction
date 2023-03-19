@@ -105,10 +105,17 @@ scoreboard objectives add lvl.combat.progress dummy
 scoreboard objectives add lvl.combat.goal dummy
 scoreboard objectives add lvl.combat.goal_calc dummy
 ## farming
-scoreboard objectives add lvl.farm dummy
-scoreboard objectives add lvl.farm.progress dummy
-scoreboard objectives add lvl.farm.goal dummy
-scoreboard objectives add lvl.farm.goal_calc dummy
+#scoreboard objectives add lvl.farm dummy
+#scoreboard objectives add lvl.farm.progress dummy
+#scoreboard objectives add lvl.farm.goal dummy
+#scoreboard objectives add lvl.farm.goal_calc dummy
+
+
+# player tools
+## level-locking
+scoreboard objectives add temp_store.player_tool_eligible dummy
+scoreboard objectives add temp_store.player_tool_profession dummy
+scoreboard objectives add temp_store.player_tool_level dummy
 
 
 # level rates
