@@ -40,8 +40,13 @@ execute as @a run function sp:level/main
 
 # check level is >= 1
 execute as @a run function sp:level/check
+
+# player tools
+execute as @a run function sp:system/tool/main
+
 # display player's level
 execute as @a run function sp:level/show
+
 # check level up
 execute as @a run function sp:level/up/check
 
