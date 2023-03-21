@@ -95,9 +95,9 @@ Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4)
 - [ ] Implement housing backend
   - [ ] Define locations with `area_effect_cloud`
   - [ ] Starting claim flow
-    - [ ] Pick a random location
-    - [ ] Tag as `housing.claimed`
-    - [ ] Copy over player UUID to owner field
+    - [x] Pick a random location
+    - [x] Tag as `housing.claimed`
+    - [x] Copy over player UUID to owner field
     - [ ] Use structure blocks to create house
     - [ ] Assign random entry point to location via tags(?)
     - [ ] Enter house automatically?
