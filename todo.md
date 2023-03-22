@@ -108,6 +108,9 @@ Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4)
     - [ ] Untag temporary stuff
   - [ ] Leave house flow
     - [ ] Teleport player to housing's assigned entry point
+  - [ ] Housing configuration
+    - [ ] Open to players (default false)
+    - [ ] Lock containers (default true)
 
 ### Islands(?)
 
