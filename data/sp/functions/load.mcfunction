@@ -122,7 +122,7 @@ scoreboard objectives add temp_store.player_tool_level dummy
 ## housing index
 scoreboard objectives add housing.index dummy
 ## housing configuration
-scoreboard objectives add housing.config.open_to_players dummy
+scoreboard objectives add housing.config.open_to_visitors dummy
 scoreboard objectives add housing.config.lock_containers dummy
 
 

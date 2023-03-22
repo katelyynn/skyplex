@@ -111,7 +111,7 @@ Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4)
   - [ ] Housing configuration
     - [ ] Interface to configure
     - [ ] Set default options
-    - [x] Open to players (default false)
+    - [x] Open to visitors (default false)
     - [ ] Lock containers (default true)
 
 ### Islands(?)

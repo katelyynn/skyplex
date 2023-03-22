@@ -14,7 +14,7 @@ execute as @a[tag=housing.temporary_entry,distance=..4] at @s run function sp:sy
 # are normal players nearby?
 ## check config first
 ## if valid, teleport them to house
-execute if score @e[tag=housing.location,tag=housing.temporary_location,limit=1] housing.config.open_to_players matches 1.. as @a[tag=!housing.temporary_entry,distance=..4] at @s run function sp:system/housing/enter/player
+execute if score @e[tag=housing.location,tag=housing.temporary_location,limit=1] housing.config.open_to_visitors matches 1.. as @a[tag=!housing.temporary_entry,distance=..4] at @s run function sp:system/housing/enter/player
 
 # remove identifiers
 tag @a[tag=housing.temporary_entry] remove housing.temporary_entry
