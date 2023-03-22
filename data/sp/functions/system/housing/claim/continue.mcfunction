@@ -3,6 +3,10 @@
 ## continue if available house
 
 
+# mark self as owner
+scoreboard players add @s housing.owner 0
+scoreboard players add @s housing.owner 1
+
 # copy over UUID to owner
 ## assigns location on NBT level
 ## for use in 1.19.4 execute on owner
