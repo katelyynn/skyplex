@@ -109,6 +109,8 @@ Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4)
   - [ ] Leave house flow
     - [ ] Teleport player to housing's assigned entry point
   - [ ] Housing configuration
+    - [ ] Interface to configure
+    - [ ] Set default options
     - [ ] Open to players (default false)
     - [ ] Lock containers (default true)
 
