@@ -102,16 +102,16 @@ Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4)
     - [x] Assign random entry point to location via scoreboards (based on upper index)
     - [ ] Enter house automatically?
   - [ ] Enter house flow
-    - [ ] Execute as location and tag owner temporarily `housing.temporary_player`
-    - [ ] Execute at entry point to check if owner is nearby
-    - [ ] ^ if true, execute as location and teleport owner there
-    - [ ] Untag temporary stuff
+    - [x] Execute as location and tag owner temporarily `housing.temporary_player`
+    - [x] Execute at entry point to check if owner is nearby
+    - [x] ^ if true, execute as location and teleport owner there
+    - [x] Untag temporary stuff
   - [ ] Leave house flow
     - [ ] Teleport player to housing's assigned entry point
   - [ ] Housing configuration
     - [ ] Interface to configure
     - [ ] Set default options
-    - [ ] Open to players (default false)
+    - [x] Open to players (default false)
     - [ ] Lock containers (default true)
 
 ### Islands(?)
