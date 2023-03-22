@@ -118,6 +118,11 @@ scoreboard objectives add temp_store.player_tool_profession dummy
 scoreboard objectives add temp_store.player_tool_level dummy
 
 
+# housing
+## housing index
+scoreboard objectives add housing.index dummy
+
+
 # level rates
 scoreboard objectives add lvl.rates dummy
 ## mining

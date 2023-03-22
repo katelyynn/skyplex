@@ -99,7 +99,7 @@ Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4)
     - [x] Tag as `housing.claimed`
     - [x] Copy over player UUID to owner field
     - [ ] Use structure blocks to create house
-    - [ ] Assign random entry point to location via scoreboards (based on upper index)
+    - [x] Assign random entry point to location via scoreboards (based on upper index)
     - [ ] Enter house automatically?
   - [ ] Enter house flow
     - [ ] Execute as location and tag owner temporarily `housing.temporary_player`
