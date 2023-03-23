@@ -9,6 +9,9 @@ tag @e[tag=housing.location,tag=housing.temporary_claim,limit=1] add housing.cla
 
 # any houses left to claim?
 ## if not, display error
-execute unless entity @e[tag=housing.location,tag=housing.temporary_claim] run tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"X","color":"red","bold":true},{"text":"] ","color":"dark_gray"},{"text":"There are no available houses at the moment, try again later.","color":"red"}]
+# announce
+execute unless entity @e[tag=housing.location,tag=housing.temporary_claim] run tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"⌂","color":"red"},{"text":"] ","color":"dark_gray"},{"text":"There are no available houses at the moment, try again later.","color":"red"}]
+# sfx
+execute unless entity @e[tag=housing.location,tag=housing.temporary_claim] run playsound minecraft:block.note_block.bass player @s
 ## if so, continue
 execute if entity @e[tag=housing.location,tag=housing.temporary_claim] run function sp:system/housing/claim/continue

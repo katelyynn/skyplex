@@ -11,3 +11,9 @@ execute as @e[tag=housing.entry] at @s if entity @a[distance=..1.25] run functio
 # forceload locations
 execute as @e[tag=housing.generic,tag=!housing.forceloaded] at @s run forceload add ~ ~
 execute as @e[tag=housing.generic,tag=!housing.forceloaded] at @s run tag @s add housing.forceloaded
+
+# housing settings
+## /trigger housing
+scoreboard players enable @a housing
+execute as @a at @s if score @s housing.owner matches 1.. if score @s housing matches 1.. run function sp:system/housing/settings/go
+execute as @a at @s unless score @s housing.owner matches 1.. if score @s housing matches 1.. run function sp:system/housing/settings/error

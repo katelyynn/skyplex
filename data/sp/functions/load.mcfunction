@@ -119,6 +119,8 @@ scoreboard objectives add temp_store.player_tool_level dummy
 
 
 # housing
+## /trigger housing
+scoreboard objectives add housing dummy
 ## housing index
 scoreboard objectives add housing.index dummy
 ## is housing owner?
