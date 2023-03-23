@@ -18,3 +18,8 @@ scoreboard players add next_index housing.index 1
 
 # remove temporary identifier
 tag @e[tag=housing.location,tag=housing.temporary_claim] remove housing.temporary_claim
+
+# announce
+tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"⌂","color":"#EF9139"},{"text":"] ","color":"dark_gray"},{"text":"You have claimed a house.","color":"#EF9139"}]
+# sfx
+playsound minecraft:entity.arrow.hit_player player @s

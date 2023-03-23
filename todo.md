@@ -107,10 +107,10 @@ Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4)
     - [x] Execute at entry point to check if owner is nearby
     - [x] ^ if true, execute as location and teleport owner there
     - [x] Untag temporary stuff
-  - [ ] Leave house flow
-    - [ ] Teleport player to housing's assigned entry point
+  - [x] Leave house flow
+    - [x] Teleport player to housing's assigned entry point
   - [ ] Housing configuration
-    - [ ] Interface to configure
+    - [x] Interface to configure
     - [ ] Set default options
     - [x] Open to visitors (default false)
     - [ ] Lock containers (default true)
