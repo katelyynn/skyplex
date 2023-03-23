@@ -2,6 +2,8 @@
 ## settings menu
 ## /trigger housing
 
+## TODO: replace setting functions with triggers to allow using without op
+
 
 # sfx
 playsound minecraft:entity.item_frame.place player @s
@@ -12,7 +14,7 @@ execute as @e[tag=housing.location] if score @s housing.index = temporary_settin
 
 # tellraw
 ## header
-tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"⌂","color":"#EF9139"},{"text":"] ","color":"dark_gray"},{"text":"Your house","color":"#EF9139"}]
+tellraw @s ["",{"text":"\n[","color":"dark_gray"},{"text":"⌂","color":"#EF9139"},{"text":"] ","color":"dark_gray"},{"text":"Your house\n","color":"#EF9139"}]
 
 # open to visitors
 ## enabled
