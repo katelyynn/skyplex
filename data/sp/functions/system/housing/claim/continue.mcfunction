@@ -7,15 +7,13 @@
 scoreboard players add @s housing.owner 0
 scoreboard players add @s housing.owner 1
 
-# copy over UUID to owner
-## assigns location on NBT level
-## for use in 1.19.4 execute on owner
-data modify entity @e[tag=housing.location,tag=housing.temporary_claim,limit=1] Owner set from entity @s UUID
-
 # assign housing index
 ## next_index defines the latest entry point to match with a location
 scoreboard players add next_index housing.index 0
 scoreboard players operation @e[tag=housing.location,tag=housing.temporary_claim,limit=1] housing.index = next_index housing.index
+## set owner's index
+scoreboard players operation @s housing.index = next_index housing.index
+## advance index
 scoreboard players add next_index housing.index 1
 
 # remove temporary identifier

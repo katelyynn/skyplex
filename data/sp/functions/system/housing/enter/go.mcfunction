@@ -5,16 +5,16 @@
 # temporary identifier on owner
 scoreboard players operation temporary_index housing.index = @s housing.index
 execute as @e[tag=housing.location] if score @s housing.index = temporary_index housing.index run tag @s add housing.temporary_location
-execute as @e[tag=housing.location,tag=housing.temporary_location,limit=1] on owner run tag @s add housing.temporary_entry
+execute as @a[distance=..2.5] if score @s housing.index = temporary_index housing.index run tag @s add housing.temporary_entry
 
 # is owner nearby?
 ## if so, teleport them to house
-execute as @a[tag=housing.temporary_entry,distance=..4] at @s run function sp:system/housing/enter/owner
+execute as @a[tag=housing.temporary_entry,distance=..2.5] at @s run function sp:system/housing/enter/owner
 
 # are normal players nearby?
 ## check config first
 ## if valid, teleport them to house
-execute if score @e[tag=housing.location,tag=housing.temporary_location,limit=1] housing.config.open_to_visitors matches 1.. as @a[tag=!housing.temporary_entry,distance=..4] at @s run function sp:system/housing/enter/player
+execute if score @e[tag=housing.location,tag=housing.temporary_location,limit=1] housing.config.open_to_visitors matches 1.. as @a[tag=!housing.temporary_entry,distance=..2.5] at @s run function sp:system/housing/enter/player
 
 # remove identifiers
 tag @a[tag=housing.temporary_entry] remove housing.temporary_entry
