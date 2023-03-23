@@ -12,6 +12,9 @@ execute as @e[tag=housing.entry] at @s if entity @a[distance=..1.25] run functio
 execute as @e[tag=housing.generic,tag=!housing.forceloaded] at @s run forceload add ~ ~
 execute as @e[tag=housing.generic,tag=!housing.forceloaded] at @s run tag @s add housing.forceloaded
 
+# player timeout
+execute as @a[tag=housing.player_timeout] run function sp:system/housing/timeout/main
+
 # housing settings
 ## /trigger housing
 scoreboard players enable @a housing

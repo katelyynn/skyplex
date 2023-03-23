@@ -121,6 +121,9 @@ scoreboard objectives add temp_store.player_tool_level dummy
 # housing
 ## /trigger housing
 scoreboard objectives add housing dummy
+## player timeout
+scoreboard objectives add temp_store.housing_player_timeout dummy
+scoreboard players set housing_player_timeout internal 30
 ## housing index
 scoreboard objectives add housing.index dummy
 ## is housing owner?
