@@ -15,7 +15,7 @@ data modify entity @e[tag=housing.location,tag=housing.temporary_claim,limit=1] 
 # assign housing index
 ## next_index defines the latest entry point to match with a location
 scoreboard players add next_index housing.index 0
-scoreboard players operation @s housing.index = next_index housing.index
+scoreboard players operation @e[tag=housing.location,tag=housing.temporary_claim,limit=1] housing.index = next_index housing.index
 scoreboard players add next_index housing.index 1
 
 # remove temporary identifier
