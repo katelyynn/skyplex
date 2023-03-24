@@ -9,6 +9,9 @@ execute at @e[tag=housing.entry,tag=housing.temporary_entry,tag=face.east] run t
 execute at @e[tag=housing.entry,tag=housing.temporary_entry,tag=face.south] run tp @s ~ ~ ~ 0 0
 execute at @e[tag=housing.entry,tag=housing.temporary_entry,tag=face.west] run tp @s ~ ~ ~ 90 0
 
+# teleport forwards
+tp @s ^ ^ ^1.5
+
 # give player temporary timeout
 tag @s add housing.player_timeout
 
