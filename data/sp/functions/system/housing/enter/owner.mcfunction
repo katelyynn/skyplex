@@ -3,7 +3,11 @@
 
 
 # teleport to house
-execute at @e[tag=housing.location,tag=housing.temporary_location] run tp @s ~ ~ ~
+execute at @e[tag=housing.location,tag=housing.temporary_location,tag=!face.north,tag=!face.east,tag=!face.south,tag=!face.west] run tp @s ~ ~ ~
+execute at @e[tag=housing.location,tag=housing.temporary_location,tag=face.north] run tp @s ~ ~ ~ 180 0
+execute at @e[tag=housing.location,tag=housing.temporary_location,tag=face.east] run tp @s ~ ~ ~ 270 0
+execute at @e[tag=housing.location,tag=housing.temporary_location,tag=face.south] run tp @s ~ ~ ~ 0 0
+execute at @e[tag=housing.location,tag=housing.temporary_location,tag=face.west] run tp @s ~ ~ ~ 90 0
 
 # give player temporary timeout
 tag @s add housing.player_timeout
