@@ -130,9 +130,9 @@ scoreboard objectives add housing.index dummy
 scoreboard objectives add housing.owner dummy
 ## housing configuration
 scoreboard objectives add housing.config.open_to_visitors dummy
-scoreboard objectives add housing.config.open_to_visitors_option trigger
+scoreboard objectives add housing.config.open_to_visitors_option trigger "Open to visitors"
 scoreboard objectives add housing.config.lock_containers dummy
-scoreboard objectives add housing.config.lock_containers_option trigger
+scoreboard objectives add housing.config.lock_containers_option trigger "Lock containers"
 
 
 # level rates
