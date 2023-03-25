@@ -1,31 +1,30 @@
 # check player's level requirements
 
 
-## TODO: move * lvl.rates to player-dependent
-## to allow multipliers to apply
-
+# convert level rates per player
+function sp:system/level/booster/main
 
 # gain +xp
 ## mining
-execute if score @s spmine.cobblestone matches 1.. run scoreboard players operation @s lvl.mine.progress += mine.cobblestone lvl.rates
-execute if score @s spmine.coal matches 1.. run scoreboard players operation @s lvl.mine.progress += mine.coal lvl.rates
-execute if score @s spmine.raw_iron matches 1.. run scoreboard players operation @s lvl.mine.progress += mine.raw_iron lvl.rates
-execute if score @s spmine.raw_gold matches 1.. run scoreboard players operation @s lvl.mine.progress += mine.raw_gold lvl.rates
-execute if score @s spmine.diamond matches 1.. run scoreboard players operation @s lvl.mine.progress += mine.diamond lvl.rates
-execute if score @s spmine.lapis_lazuli matches 1.. run scoreboard players operation @s lvl.mine.progress += mine.lapis_lazuli lvl.rates
-execute if score @s spmine.redstone matches 1.. run scoreboard players operation @s lvl.mine.progress += mine.redstone lvl.rates
+execute if score @s spmine.cobblestone matches 1.. run scoreboard players operation @s lvl.mine.progress += @s lvl.rates_player.mine.cobblestone
+execute if score @s spmine.coal matches 1.. run scoreboard players operation @s lvl.mine.progress += @s lvl.rates_player.mine.coal
+execute if score @s spmine.raw_iron matches 1.. run scoreboard players operation @s lvl.mine.progress += @s lvl.rates_player.mine.raw_iron
+execute if score @s spmine.raw_gold matches 1.. run scoreboard players operation @s lvl.mine.progress += @s lvl.rates_player.mine.raw_gold
+execute if score @s spmine.diamond matches 1.. run scoreboard players operation @s lvl.mine.progress += @s lvl.rates_player.mine.diamond
+execute if score @s spmine.lapis_lazuli matches 1.. run scoreboard players operation @s lvl.mine.progress += @s lvl.rates_player.mine.lapis_lazuli
+execute if score @s spmine.redstone matches 1.. run scoreboard players operation @s lvl.mine.progress += @s lvl.rates_player.mine.redstone
 ## fishing
-execute if score @s spfish.catch matches 1.. run scoreboard players operation @s lvl.fish.progress += fish.catch lvl.rates
+execute if score @s spfish.catch matches 1.. run scoreboard players operation @s lvl.fish.progress += @s lvl.rates_player.fish.catch
 ## farming
-execute if score @s spfarm.wheat matches 1.. run scoreboard players operation @s lvl.farm.progress += farm.wheat lvl.rates
+execute if score @s spfarm.wheat matches 1.. run scoreboard players operation @s lvl.farm.progress += @s lvl.rates_player.farm.wheat
 ## foraging
-execute if score @s spwood.oak_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.oak_log lvl.rates
-execute if score @s spwood.spruce_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.spruce_log lvl.rates
-execute if score @s spwood.birch_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.birch_log lvl.rates
-execute if score @s spwood.jungle_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.jungle_log lvl.rates
-execute if score @s spwood.acacia_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.acacia_log lvl.rates
-execute if score @s spwood.dark_oak_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.dark_oak_log lvl.rates
-execute if score @s spwood.mangrove_log matches 1.. run scoreboard players operation @s lvl.wood.progress += wood.mangrove_log lvl.rates
+execute if score @s spwood.oak_log matches 1.. run scoreboard players operation @s lvl.wood.progress += @s lvl.rates_player.wood.oak_log
+execute if score @s spwood.spruce_log matches 1.. run scoreboard players operation @s lvl.wood.progress += @s lvl.rates_player.wood.spruce_log
+execute if score @s spwood.birch_log matches 1.. run scoreboard players operation @s lvl.wood.progress += @s lvl.rates_player.wood.birch_log
+execute if score @s spwood.jungle_log matches 1.. run scoreboard players operation @s lvl.wood.progress += @s lvl.rates_player.wood.jungle_log
+execute if score @s spwood.acacia_log matches 1.. run scoreboard players operation @s lvl.wood.progress += @s lvl.rates_player.wood.acacia_log
+execute if score @s spwood.dark_oak_log matches 1.. run scoreboard players operation @s lvl.wood.progress += @s lvl.rates_player.wood.dark_oak_log
+execute if score @s spwood.mangrove_log matches 1.. run scoreboard players operation @s lvl.wood.progress += @s lvl.rates_player.wood.mangrove_log
 
 scoreboard players reset @s spmine.cobblestone
 scoreboard players reset @s spmine.coal
