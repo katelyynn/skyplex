@@ -3,6 +3,16 @@
 ## main loop
 
 
+# check if any XP booster is active
+scoreboard players set @s lvl.generic.booster 0
+execute if score @s lvl.mine.booster matches 2.. run scoreboard players add @s lvl.generic.booster 1
+execute if score @s lvl.fish.booster matches 2.. run scoreboard players add @s lvl.generic.booster 1
+execute if score @s lvl.farm.booster matches 2.. run scoreboard players add @s lvl.generic.booster 1
+execute if score @s lvl.wood.booster matches 2.. run scoreboard players add @s lvl.generic.booster 1
+execute if score @s lvl.combat.booster matches 2.. run scoreboard players add @s lvl.generic.booster 1
+## if so, run timer
+execute if score @s lvl.generic.booster matches 1.. run function sp:system/level/booster/time
+
 ## mining
 scoreboard players operation @s lvl.rates_player.mine.cobblestone = mine.cobblestone lvl.rates
 execute if score @s lvl.mine.booster matches 2.. run scoreboard players operation @s lvl.rates_player.mine.cobblestone *= @s lvl.mine.booster
