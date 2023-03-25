@@ -162,23 +162,39 @@ scoreboard objectives add housing.config.lock_containers_option trigger "Lock co
 scoreboard objectives add lvl.rates dummy
 ## mining
 scoreboard players set mine.cobblestone lvl.rates 5
+scoreboard objectives add lvl.rates_player.mine.cobblestone dummy
 scoreboard players set mine.coal lvl.rates 10
+scoreboard objectives add lvl.rates_player.mine.coal dummy
 scoreboard players set mine.raw_iron lvl.rates 20
+scoreboard objectives add lvl.rates_player.mine.raw_iron dummy
 scoreboard players set mine.raw_gold lvl.rates 30
+scoreboard objectives add lvl.rates_player.mine.raw_gold dummy
 scoreboard players set mine.diamond lvl.rates 50
+scoreboard objectives add lvl.rates_player.mine.diamond dummy
 scoreboard players set mine.lapis_lazuli lvl.rates 0
+scoreboard objectives add lvl.rates_player.mine.lapis_lazuli dummy
 scoreboard players set mine.redstone lvl.rates 0
+scoreboard objectives add lvl.rates_player.mine.redstone dummy
 ## fishing
 scoreboard players set fish.catch lvl.rates 10
+scoreboard objectives add lvl.rates_player.fish.catch dummy
 ## farming
 scoreboard players set farm.wheat lvl.rates 1
+scoreboard objectives add lvl.rates_player.farm.wheat dummy
 ## foraging
 scoreboard players set wood.oak_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.oak_log dummy
 scoreboard players set wood.spruce_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.spruce_log dummy
 scoreboard players set wood.birch_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.birch_log dummy
 scoreboard players set wood.jungle_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.jungle_log dummy
 scoreboard players set wood.acacia_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.acacia_log dummy
 scoreboard players set wood.dark_oak_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.dark_oak_log dummy
 scoreboard players set wood.mangrove_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.mangrove_log dummy
 
 ## generated via rates.html
