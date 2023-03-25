@@ -16,6 +16,9 @@ scoreboard players operation @s housing.index = next_index housing.index
 ## advance index
 scoreboard players add next_index housing.index 1
 
+# set default configuration
+execute as @e[tag=housing.location,tag=housing.temporary_claim,limit=1] run function sp:system/housing/claim/defaults
+
 # announce
 tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"⌂","color":"#EF9139"},{"text":"] ","color":"dark_gray"},{"text":"You have claimed a house.","color":"#EF9139"}]
 # sfx
