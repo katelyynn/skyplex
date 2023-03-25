@@ -1,6 +1,10 @@
 # check player's level requirements
 
 
+## TODO: move * lvl.rates to player-dependent
+## to allow multipliers to apply
+
+
 # gain +xp
 ## mining
 execute if score @s spmine.cobblestone matches 1.. run scoreboard players operation @s lvl.mine.progress += mine.cobblestone lvl.rates
