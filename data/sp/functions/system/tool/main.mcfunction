@@ -14,6 +14,7 @@
 ## 0: invalid
 ## 1: valid
 ## 2: valid (no level-lock)
+## 3: invalid (housing)
 
 # level-locked
 scoreboard players set @s temp_store.player_tool_eligible 0
@@ -24,6 +25,8 @@ scoreboard players set @s temp_store.player_tool_level -1
 execute store result score @s temp_store.player_tool_profession run data get entity @s SelectedItem.tag.lockedProfession
 ## store current item's level
 execute store result score @s temp_store.player_tool_level run data get entity @s SelectedItem.tag.lockedProfessionLevel
+## store current item's housing status
+execute store result score @s temp_store.player_tool_housing run data get entity @s SelectedItem.tag.housingItem
 
 # item eligible?
 ## invalid (no level-lock)
@@ -35,6 +38,8 @@ execute if score @s temp_store.player_tool_profession matches 2 if score @s lvl.
 execute if score @s temp_store.player_tool_profession matches 3 if score @s lvl.farm >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
 execute if score @s temp_store.player_tool_profession matches 4 if score @s lvl.food >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
 execute if score @s temp_store.player_tool_profession matches 5 if score @s lvl.combat >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
+## invalid (housing)
+execute if entity @e[tag=housing.inside,distance=..6] unless score @s temp_store.player_tool_housing matches 1.. unless score @s temp_store.player_tool_housing matches -1 run scoreboard players set @s temp_store.player_tool_eligible 3
 
 # effect player
 execute unless score @s temp_store.player_tool_eligible matches 1.. run effect give @s minecraft:mining_fatigue 1 255 true
@@ -48,3 +53,5 @@ execute if score @s temp_store.player_tool_profession matches 2 unless score @s 
 execute if score @s temp_store.player_tool_profession matches 3 unless score @s temp_store.player_tool_eligible matches 1.. run title @s actionbar [{"text":"This tool requires Farming ","color":"red"},{"score":{"name":"@s","objective":"temp_store.player_tool_level"}},{"text":" to use."}]
 execute if score @s temp_store.player_tool_profession matches 4 unless score @s temp_store.player_tool_eligible matches 1.. run title @s actionbar [{"text":"This tool requires food (placeholder) ","color":"red"},{"score":{"name":"@s","objective":"temp_store.player_tool_level"}},{"text":" to use."}]
 execute if score @s temp_store.player_tool_profession matches 5 unless score @s temp_store.player_tool_eligible matches 1.. run title @s actionbar [{"text":"This tool requires Combat ","color":"red"},{"score":{"name":"@s","objective":"temp_store.player_tool_level"}},{"text":" to use."}]
+## housing
+execute if score @s temp_store.player_tool_eligible matches 3 run title @s actionbar [{"text":"This tool cannot be used in housing areas.","color":"#EF9139"}]
