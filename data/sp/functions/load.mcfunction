@@ -143,7 +143,7 @@ scoreboard objectives add temp_store.player_tool_housing dummy
 
 # housing
 ## /trigger housing
-scoreboard objectives add housing dummy
+scoreboard objectives add housing dummy "Your house"
 ## player timeout
 scoreboard objectives add temp_store.housing_player_timeout dummy
 scoreboard players set housing_player_timeout internal 30
