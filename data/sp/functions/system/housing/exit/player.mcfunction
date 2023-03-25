@@ -12,6 +12,9 @@ execute at @e[tag=housing.entry,tag=housing.temporary_entry,tag=face.west] run t
 # give player temporary timeout
 tag @s add housing.player_timeout
 
+# resistance
+effect give @s minecraft:resistance 1 255 true
+
 # announce
 tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"⌂","color":"#EF9139"},{"text":"] ","color":"dark_gray"},{"text":"You have left the house.","color":"#EF9139"}]
 # sfx
