@@ -3,11 +3,11 @@
 
 
 # calculate level goals
-function sp:level/calc/mine
-function sp:level/calc/fish
-function sp:level/calc/farm
-function sp:level/calc/wood
-function sp:level/calc/combat
+function sp:system/level/calc/mine
+function sp:system/level/calc/fish
+function sp:system/level/calc/farm
+function sp:system/level/calc/wood
+function sp:system/level/calc/combat
 
 
 # none
