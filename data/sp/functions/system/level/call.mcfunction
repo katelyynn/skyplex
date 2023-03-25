@@ -2,7 +2,7 @@
 
 
 # header
-tellraw @s ["",{"text":"\nYour Skills\n","color":"yellow","bold":true}]
+tellraw @s ["",{"text":"\n[","color":"dark_gray"},{"text":"♦","color":"yellow"},{"text":"] ","color":"dark_gray"},{"text":"Your skills\n","color":"yellow"}]
 # professions
 ## mining
 tellraw @s ["",{"text":"Mining ","color":"gold"},{"score":{"name":"@s","objective":"lvl.mine"},"color":"gold"},{"text":" [","color":"dark_gray"},{"score":{"name":"@s","objective":"lvl.mine.progress"}},{"text":"/","color":"gray"},{"score":{"name":"@s","objective":"lvl.mine.goal"}},{"text":"]","color":"dark_gray"}]
