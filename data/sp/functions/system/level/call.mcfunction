@@ -18,4 +18,4 @@ tellraw @s ["",{"text":"Combat ","color":"gold"},{"score":{"name":"@s","objectiv
 tellraw @s ""
 
 
-scoreboard players reset @s stats
+scoreboard players reset @s skills

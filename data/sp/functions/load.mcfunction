@@ -40,7 +40,7 @@ scoreboard players set farm.wheat internal 480
 
 
 # display player level in trigger
-scoreboard objectives add stats trigger "Your statistics"
+scoreboard objectives add skills trigger "Your skills"
 
 
 # quests
