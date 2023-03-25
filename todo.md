@@ -92,14 +92,14 @@ Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4)
 ### Housing
 - [ ] Implement housing frontend (release)
   - [ ] Define locations with `area_effect_cloud`
+  - [ ] Use structure blocks to create house
 
 - [ ] Implement housing backend
   - [x] Generator for creating locations and entries
-  - [ ] Starting claim flow
+  - [x] Starting claim flow
     - [x] Pick a random location
     - [x] Tag as `housing.claimed`
     - [x] Copy over player UUID to owner field
-    - [ ] Use structure blocks to create house
     - [x] Assign random entry point to location via scoreboards (based on upper index)
     - [x] Enter house automatically?
   - [x] Enter house flow
@@ -111,7 +111,7 @@ Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4)
     - [x] Teleport player to housing's assigned entry point
   - [ ] Housing configuration
     - [x] Interface to configure
-    - [ ] Set default options
+    - [x] Set default options
     - [x] Open to visitors (default false)
     - [ ] Lock containers (default true)
 
