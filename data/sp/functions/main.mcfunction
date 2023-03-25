@@ -51,7 +51,7 @@ execute as @a run function sp:system/level/show
 execute as @a run function sp:system/level/up/check
 
 # call player's level in trigger
-scoreboard players enable @a[tag=!ignore_call] stats
+scoreboard players enable @a[tag=!ignore_call] skills
 execute as @a if score @s skills matches 1.. run function sp:system/level/call
 
 # housing
