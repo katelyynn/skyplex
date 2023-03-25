@@ -42,7 +42,7 @@ execute as @a run function sp:level/main
 execute as @a run function sp:level/check
 
 # player tools
-execute as @a run function sp:system/tool/main
+execute as @a at @s run function sp:system/tool/main
 
 # display player's level
 execute as @a run function sp:level/show
