@@ -18,4 +18,4 @@ effect give @s minecraft:resistance 1 255 true
 # announce
 tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"⌂","color":"#EF9139"},{"text":"] ","color":"dark_gray"},{"text":"You have left the house.","color":"#EF9139"}]
 # sfx
-execute at @e[tag=housing.entry,tag=housing.temporary_entry] run playsound minecraft:block.wooden_door.close player @s
+execute at @e[tag=housing.entry,tag=housing.temporary_entry] run playsound minecraft:block.wooden_door.close player @a
