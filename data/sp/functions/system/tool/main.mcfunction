@@ -35,15 +35,15 @@ execute unless entity @s[nbt=!{SelectedItem:{id:"minecraft:wooden_pickaxe"}},nbt
 # item eligible?
 ## invalid (no level-lock)
 execute if score @s temp_store.player_tool_profession matches -1 run scoreboard players set @s temp_store.player_tool_eligible 2
-## professions
-execute if score @s temp_store.player_tool_profession matches 0 if score @s lvl.mine >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
-execute if score @s temp_store.player_tool_profession matches 1 if score @s lvl.fish >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
-execute if score @s temp_store.player_tool_profession matches 2 if score @s lvl.wood >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
-execute if score @s temp_store.player_tool_profession matches 3 if score @s lvl.farm >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
-execute if score @s temp_store.player_tool_profession matches 4 if score @s lvl.food >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
-execute if score @s temp_store.player_tool_profession matches 5 if score @s lvl.combat >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
 ## invalid (housing)
 execute if entity @e[tag=housing.inside,distance=..6] if score @s temp_store.player_tool_bool matches 1.. unless score @s temp_store.player_tool_housing matches 1.. run scoreboard players set @s temp_store.player_tool_eligible 3
+## professions
+execute unless score @s temp_store.player_tool_eligible matches 3 if score @s temp_store.player_tool_profession matches 0 if score @s lvl.mine >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
+execute unless score @s temp_store.player_tool_eligible matches 3 if score @s temp_store.player_tool_profession matches 1 if score @s lvl.fish >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
+execute unless score @s temp_store.player_tool_eligible matches 3 if score @s temp_store.player_tool_profession matches 2 if score @s lvl.wood >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
+execute unless score @s temp_store.player_tool_eligible matches 3 if score @s temp_store.player_tool_profession matches 3 if score @s lvl.farm >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
+execute unless score @s temp_store.player_tool_eligible matches 3 if score @s temp_store.player_tool_profession matches 4 if score @s lvl.food >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
+execute unless score @s temp_store.player_tool_eligible matches 3 if score @s temp_store.player_tool_profession matches 5 if score @s lvl.combat >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
 
 # effect player
 execute unless score @s temp_store.player_tool_eligible matches 1.. run effect give @s minecraft:mining_fatigue 1 255 true
