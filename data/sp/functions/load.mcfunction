@@ -112,6 +112,7 @@ scoreboard objectives add lvl.combat.goal_calc dummy
 
 # player level boosters
 scoreboard objectives add lvl.generic.booster dummy
+scoreboard objectives add temp_store.player_item_booster_eligible dummy
 scoreboard objectives add temp_store.player_item_booster_profession dummy
 scoreboard objectives add temp_store.player_item_booster_multiplier dummy
 scoreboard objectives add temp_store.player_item_booster_length dummy
