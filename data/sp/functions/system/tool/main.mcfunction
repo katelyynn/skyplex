@@ -46,9 +46,9 @@ execute unless score @s temp_store.player_tool_eligible matches 3 if score @s te
 execute unless score @s temp_store.player_tool_eligible matches 3 if score @s temp_store.player_tool_profession matches 5 if score @s lvl.combat >= @s temp_store.player_tool_level run scoreboard players set @s temp_store.player_tool_eligible 1
 
 # effect player
-execute unless score @s temp_store.player_tool_eligible matches 1.. run effect give @s minecraft:mining_fatigue 1 255 true
+execute unless score @s temp_store.player_tool_eligible matches 1..2 run effect give @s minecraft:mining_fatigue 1 255 true
 ## TODO: make this only happen once
-execute if score @s temp_store.player_tool_eligible matches 1.. run effect clear @s minecraft:mining_fatigue
+execute if score @s temp_store.player_tool_eligible matches 1..2 run effect clear @s minecraft:mining_fatigue
 
 # display ineligible
 execute if score @s temp_store.player_tool_profession matches 0 unless score @s temp_store.player_tool_eligible matches 1.. run title @s actionbar [{"text":"This tool requires Mining ","color":"red"},{"score":{"name":"@s","objective":"temp_store.player_tool_level"}},{"text":" to use."}]
