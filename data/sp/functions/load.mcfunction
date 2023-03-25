@@ -118,6 +118,23 @@ scoreboard objectives add temp_store.player_tool_profession dummy
 scoreboard objectives add temp_store.player_tool_level dummy
 
 
+# housing
+## /trigger housing
+scoreboard objectives add housing dummy
+## player timeout
+scoreboard objectives add temp_store.housing_player_timeout dummy
+scoreboard players set housing_player_timeout internal 30
+## housing index
+scoreboard objectives add housing.index dummy
+## is housing owner?
+scoreboard objectives add housing.owner dummy
+## housing configuration
+scoreboard objectives add housing.config.open_to_visitors dummy
+scoreboard objectives add housing.config.open_to_visitors_option trigger "Open to visitors"
+scoreboard objectives add housing.config.lock_containers dummy
+scoreboard objectives add housing.config.lock_containers_option trigger "Lock containers"
+
+
 # level rates
 scoreboard objectives add lvl.rates dummy
 ## mining

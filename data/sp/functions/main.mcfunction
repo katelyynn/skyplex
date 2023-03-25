@@ -54,6 +54,9 @@ execute as @a run function sp:level/up/check
 scoreboard players enable @a[tag=!ignore_call] stats
 execute as @a if score @s stats matches 1.. run function sp:level/call
 
+# housing
+function sp:system/housing/main
+
 
 # effect villagers
 effect give @e[type=villager] resistance 2 255 true
