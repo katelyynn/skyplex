@@ -1,5 +1,12 @@
-# skyplex
+<p align="center">
+<img src="https://media.discordapp.net/attachments/973652851823878274/1089281585767010354/XalsC9K.png" width=128 />
+<h2 align="center">skyplex ✨</h2>
+<p align="center">a work in progress, private, skill-based minecraft experience.</p>
+</p>
 
-incredibly, incredibly WIP. nothing to see as of yet.
+### beta notice
+skyplex is both this datapack and a map. as skyplex is in **early beta**, only the datapack is publically available.
 
-<!-- i will write a proper readme soon:tm: -->
+more information, screenshots, previews, tutorials, etc. etc. will be available as development continues.
+
+stay tuned!!
