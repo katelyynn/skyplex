@@ -9,4 +9,5 @@ tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"♦","color":"#B8E45A"}
 function sp:system/level/booster/generic/end
 
 # disable booster
-scoreboard players set @s lvl.fish.booster 0
+scoreboard players reset @s lvl.fish.booster
+scoreboard players reset @s lvl.fish.booster_time

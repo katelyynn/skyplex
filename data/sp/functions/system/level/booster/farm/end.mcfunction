@@ -9,4 +9,5 @@ tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"♦","color":"#B8E45A"}
 function sp:system/level/booster/generic/end
 
 # disable booster
-scoreboard players set @s lvl.farm.booster 0
+scoreboard players reset @s lvl.farm.booster
+scoreboard players reset @s lvl.farm.booster_time

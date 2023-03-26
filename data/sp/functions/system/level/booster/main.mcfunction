@@ -41,17 +41,19 @@ execute store result score @s temp_store.player_item_booster_length run data get
 
 # item eligible?
 ## invalid (housing)
-execute if score @s temp_store.player_item_booster_profession matches 1.. if entity @e[tag=housing.inside,distance=..6] run scoreboard players set @s temp_store.player_item_booster_eligible 3
-execute if score @s temp_store.player_item_booster_profession matches 1.. if entity @e[tag=housing.inside,distance=..6] run scoreboard players set @s temp_store.player_tool_eligible 3
+execute if score @s temp_store.player_item_booster_profession matches 0.. if entity @e[tag=housing.inside,distance=..6] run scoreboard players set @s temp_store.player_item_booster_eligible 3
+execute if score @s temp_store.player_item_booster_profession matches 0.. if entity @e[tag=housing.inside,distance=..6] run scoreboard players set @s temp_store.player_tool_eligible 3
+## valid
+execute unless score @s temp_store.player_item_booster_eligible matches 3 if score @s temp_store.player_item_booster_profession matches 0.. if score @s temp_store.player_item_booster_multiplier matches 2.. if score @s temp_store.player_item_booster_length matches 10.. run scoreboard players set @s temp_store.player_item_booster_eligible 1
 ## professions
 ## TODO: figure out a way to clear the item
 ## maybe copy the selecteditem data to armor stand
 ## then give it a unique tag that can be used for clearing?
-execute unless score @s temp_store.player_item_booster_eligible matches 3 if score @s temp_store.player_item_booster_profession matches 0 unless score @s lvl.mine.booster matches 2.. run function sp:system/level/booster/mine/start
-execute unless score @s temp_store.player_item_booster_eligible matches 3 if score @s temp_store.player_item_booster_profession matches 1 unless score @s lvl.mine.booster matches 2.. run function sp:system/level/booster/fish/start
-execute unless score @s temp_store.player_item_booster_eligible matches 3 if score @s temp_store.player_item_booster_profession matches 2 unless score @s lvl.mine.booster matches 2.. run function sp:system/level/booster/farm/start
-execute unless score @s temp_store.player_item_booster_eligible matches 3 if score @s temp_store.player_item_booster_profession matches 3 unless score @s lvl.mine.booster matches 2.. run function sp:system/level/booster/wood/start
-execute unless score @s temp_store.player_item_booster_eligible matches 3 if score @s temp_store.player_item_booster_profession matches 4 unless score @s lvl.mine.booster matches 2.. run function sp:system/level/booster/combat/start
+execute unless score @s temp_store.player_item_booster_eligible matches 0 unless score @s temp_store.player_item_booster_eligible matches 3 if score @s temp_store.player_item_booster_profession matches 0 unless score @s lvl.mine.booster matches 2.. run function sp:system/level/booster/mine/start
+execute unless score @s temp_store.player_item_booster_eligible matches 0 unless score @s temp_store.player_item_booster_eligible matches 3 if score @s temp_store.player_item_booster_profession matches 1 unless score @s lvl.fish.booster matches 2.. run function sp:system/level/booster/fish/start
+execute unless score @s temp_store.player_item_booster_eligible matches 0 unless score @s temp_store.player_item_booster_eligible matches 3 if score @s temp_store.player_item_booster_profession matches 2 unless score @s lvl.farm.booster matches 2.. run function sp:system/level/booster/farm/start
+execute unless score @s temp_store.player_item_booster_eligible matches 0 unless score @s temp_store.player_item_booster_eligible matches 3 if score @s temp_store.player_item_booster_profession matches 3 unless score @s lvl.wood.booster matches 2.. run function sp:system/level/booster/wood/start
+execute unless score @s temp_store.player_item_booster_eligible matches 0 unless score @s temp_store.player_item_booster_eligible matches 3 if score @s temp_store.player_item_booster_profession matches 4 unless score @s lvl.combat.booster matches 2.. run function sp:system/level/booster/combat/start
 
 ## mining
 scoreboard players operation @s lvl.rates_player.mine.cobblestone = mine.cobblestone lvl.rates

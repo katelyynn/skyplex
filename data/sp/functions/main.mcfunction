@@ -36,7 +36,7 @@ execute as @a at @s run function sp:system/quest/generic
 
 
 # track player level requirements
-execute as @a run function sp:system/level/main
+execute as @a at @s run function sp:system/level/main
 
 # check level is >= 1
 execute as @a run function sp:system/level/check
