@@ -5,7 +5,7 @@
 </p>
 
 ### beta notice
-skyplex is both this datapack and a map. as skyplex is in **early beta**, only the datapack is publically available.
+skyplex is both this datapack and a map. as skyplex is in **early beta**, only the datapack is publicly available.
 
 more information, screenshots, previews, tutorials, etc. etc. will be available as development continues.
 
