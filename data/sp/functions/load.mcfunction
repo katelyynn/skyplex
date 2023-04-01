@@ -40,7 +40,7 @@ scoreboard players set farm.wheat internal 480
 
 
 # display player level in trigger
-scoreboard objectives add stats trigger
+scoreboard objectives add skills trigger "Your skills"
 
 
 # quests
@@ -110,6 +110,30 @@ scoreboard objectives add lvl.combat.goal_calc dummy
 #scoreboard objectives add lvl.farm.goal dummy
 #scoreboard objectives add lvl.farm.goal_calc dummy
 
+# player level boosters
+scoreboard objectives add lvl.generic.booster dummy
+scoreboard objectives add temp_store.player_item_booster_eligible dummy
+scoreboard objectives add temp_store.player_item_booster_profession dummy
+scoreboard objectives add temp_store.player_item_booster_multiplier dummy
+scoreboard objectives add temp_store.player_item_booster_length dummy
+## mining
+scoreboard objectives add lvl.mine.booster dummy
+scoreboard objectives add lvl.mine.booster_time dummy
+## fishing
+scoreboard objectives add lvl.fish.booster dummy
+scoreboard objectives add lvl.fish.booster_time dummy
+## foraging
+scoreboard objectives add lvl.wood.booster dummy
+scoreboard objectives add lvl.wood.booster_time dummy
+## farming
+scoreboard objectives add lvl.farm.booster dummy
+scoreboard objectives add lvl.farm.booster_time dummy
+## N/A
+scoreboard objectives add lvl.food.booster dummy
+scoreboard objectives add lvl.food.booster_time dummy
+## combat
+scoreboard objectives add lvl.combat.booster dummy
+scoreboard objectives add lvl.combat.booster_time dummy
 
 # player tools
 ## generic
@@ -124,7 +148,7 @@ scoreboard objectives add temp_store.player_tool_housing dummy
 
 # housing
 ## /trigger housing
-scoreboard objectives add housing dummy
+scoreboard objectives add housing dummy "Your house"
 ## player timeout
 scoreboard objectives add temp_store.housing_player_timeout dummy
 scoreboard players set housing_player_timeout internal 30
@@ -137,29 +161,47 @@ scoreboard objectives add housing.config.open_to_visitors dummy
 scoreboard objectives add housing.config.open_to_visitors_option trigger "Open to visitors"
 scoreboard objectives add housing.config.lock_containers dummy
 scoreboard objectives add housing.config.lock_containers_option trigger "Lock containers"
+## player in house?
+scoreboard objectives add temp_store.player_in_house dummy
 
 
 # level rates
 scoreboard objectives add lvl.rates dummy
 ## mining
 scoreboard players set mine.cobblestone lvl.rates 5
+scoreboard objectives add lvl.rates_player.mine.cobblestone dummy
 scoreboard players set mine.coal lvl.rates 10
+scoreboard objectives add lvl.rates_player.mine.coal dummy
 scoreboard players set mine.raw_iron lvl.rates 20
+scoreboard objectives add lvl.rates_player.mine.raw_iron dummy
 scoreboard players set mine.raw_gold lvl.rates 30
+scoreboard objectives add lvl.rates_player.mine.raw_gold dummy
 scoreboard players set mine.diamond lvl.rates 50
+scoreboard objectives add lvl.rates_player.mine.diamond dummy
 scoreboard players set mine.lapis_lazuli lvl.rates 0
+scoreboard objectives add lvl.rates_player.mine.lapis_lazuli dummy
 scoreboard players set mine.redstone lvl.rates 0
+scoreboard objectives add lvl.rates_player.mine.redstone dummy
 ## fishing
 scoreboard players set fish.catch lvl.rates 10
+scoreboard objectives add lvl.rates_player.fish.catch dummy
 ## farming
 scoreboard players set farm.wheat lvl.rates 1
+scoreboard objectives add lvl.rates_player.farm.wheat dummy
 ## foraging
 scoreboard players set wood.oak_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.oak_log dummy
 scoreboard players set wood.spruce_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.spruce_log dummy
 scoreboard players set wood.birch_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.birch_log dummy
 scoreboard players set wood.jungle_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.jungle_log dummy
 scoreboard players set wood.acacia_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.acacia_log dummy
 scoreboard players set wood.dark_oak_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.dark_oak_log dummy
 scoreboard players set wood.mangrove_log lvl.rates 3
+scoreboard objectives add lvl.rates_player.wood.mangrove_log dummy
 
 ## generated via rates.html

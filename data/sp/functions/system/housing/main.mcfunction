@@ -18,6 +18,9 @@ execute as @e[tag=housing.generic,tag=!housing.forceloaded] at @s run tag @s add
 # player timeout
 execute as @a[tag=housing.player_timeout] run function sp:system/housing/timeout/main
 
+# player in house?
+execute as @a at @s store result score @s temp_store.player_in_house if entity @e[tag=housing.inside,distance=..6]
+
 # housing settings
 ## /trigger housing
 scoreboard players enable @a[scores={housing.owner=1..}] housing

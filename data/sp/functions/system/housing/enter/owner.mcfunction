@@ -18,5 +18,5 @@ effect give @s minecraft:resistance 1 255 true
 # announce
 tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"⌂","color":"#EF9139"},{"text":"] ","color":"dark_gray"},{"text":"You have entered your house. \u0020 ","color":"#EF9139"},{"text":"[Open settings]","color":"green","clickEvent":{"action":"run_command","value":"/trigger housing"}}]
 # sfx
-execute at @e[tag=housing.location,tag=housing.temporary_location] run playsound minecraft:block.wooden_door.open player @s
-execute at @e[tag=housing.location,tag=housing.temporary_location] run playsound minecraft:block.amethyst_block.resonate player @s
+execute at @e[tag=housing.location,tag=housing.temporary_location] run playsound minecraft:block.wooden_door.open player @a
+execute at @e[tag=housing.location,tag=housing.temporary_location] run playsound minecraft:block.bell.use player @a

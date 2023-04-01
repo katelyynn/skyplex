@@ -86,7 +86,7 @@ Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4)
 - [ ] XP booster item
 - - [ ] Lasts 5 min
 - - [ ] Given every +10 levels
-- - [ ] Boosts by +`N/A`XP
+- - [x] Boosts by +`N/A`XP
 - - [ ] Useable at any time
 
 ### Housing

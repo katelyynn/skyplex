@@ -36,23 +36,23 @@ execute as @a at @s run function sp:system/quest/generic
 
 
 # track player level requirements
-execute as @a run function sp:level/main
+execute as @a at @s run function sp:system/level/main
 
 # check level is >= 1
-execute as @a run function sp:level/check
+execute as @a run function sp:system/level/check
 
 # player tools
 execute as @a at @s run function sp:system/tool/main
 
 # display player's level
-execute as @a run function sp:level/show
+execute as @a run function sp:system/level/show
 
 # check level up
-execute as @a run function sp:level/up/check
+execute as @a run function sp:system/level/up/check
 
 # call player's level in trigger
-scoreboard players enable @a[tag=!ignore_call] stats
-execute as @a if score @s stats matches 1.. run function sp:level/call
+scoreboard players enable @a[tag=!ignore_call] skills
+execute as @a if score @s skills matches 1.. run function sp:system/level/call
 
 # housing
 function sp:system/housing/main

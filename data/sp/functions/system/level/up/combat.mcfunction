@@ -2,7 +2,7 @@
 ## combat
 
 
-function sp:level/up/generic
+function sp:system/level/up/generic
 
 # reset progress
 ## accounts for extra XP after level-up
