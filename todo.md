@@ -2,7 +2,7 @@
 (for me), not a todo for the project as a whole.
 
 ### Leveling rework
-2022.0705, **2022.07 MILESTONE**
+2022.0705 (**2022.07 milestone**)
 
 - [x] ~~Make level-calc generator (https://sky.plexion.dev/generate/levels)~~
 - - ~~Generates level values for **all** professions up to a very high number~~
@@ -11,7 +11,7 @@
 ### Crafting
 
 - [x] Fully remove all native crafting
-- - [ ] Craftable currency (between nuggets / ingots)
+- - ~~Craftable currency (between nuggets / ingots)~~
 
 ### Frameworks
 
@@ -70,7 +70,8 @@
 
 - [ ] Implement currency system
 - - [x] Obtain gold nuggets
-- - [ ] Craftable between gold nuggets / ingots
+- - [ ] Command to view all currency at a glance
+- - ~~Craftable between gold nuggets / ingots~~
 
 ### Leveling
 Numbers now generated [on the fly](https://github.com/plexiondev/skyplex/pull/4).
