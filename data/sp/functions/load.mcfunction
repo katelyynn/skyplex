@@ -19,6 +19,7 @@ scoreboard players set 9 internal 9
 scoreboard players set 10 internal 10
 scoreboard players set 11 internal 11
 scoreboard players set 12 internal 12
+scoreboard players set 20 internal 20
 
 # world
 gamerule announceAdvancements false
@@ -129,21 +130,27 @@ scoreboard objectives add temp_store.player_item_booster_length dummy
 ## mining
 scoreboard objectives add lvl.mine.booster dummy
 scoreboard objectives add lvl.mine.booster_time dummy
+scoreboard objectives add lvl.mine.booster_time_s dummy
 ## fishing
 scoreboard objectives add lvl.fish.booster dummy
 scoreboard objectives add lvl.fish.booster_time dummy
+scoreboard objectives add lvl.fish.booster_time_s dummy
 ## foraging
 scoreboard objectives add lvl.wood.booster dummy
 scoreboard objectives add lvl.wood.booster_time dummy
+scoreboard objectives add lvl.wood.booster_time_s dummy
 ## farming
 scoreboard objectives add lvl.farm.booster dummy
 scoreboard objectives add lvl.farm.booster_time dummy
+scoreboard objectives add lvl.farm.booster_time_s dummy
 ## N/A
 scoreboard objectives add lvl.food.booster dummy
 scoreboard objectives add lvl.food.booster_time dummy
+scoreboard objectives add lvl.food.booster_time_s dummy
 ## combat
 scoreboard objectives add lvl.combat.booster dummy
 scoreboard objectives add lvl.combat.booster_time dummy
+scoreboard objectives add lvl.combat.booster_time_s dummy
 
 # player tools
 ## generic
