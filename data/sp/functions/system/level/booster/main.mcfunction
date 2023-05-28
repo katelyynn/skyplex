@@ -30,6 +30,7 @@ scoreboard players set @s temp_store.player_item_booster_eligible 0
 scoreboard players set @s temp_store.player_item_booster_profession -1
 scoreboard players set @s temp_store.player_item_booster_multiplier -1
 scoreboard players set @s temp_store.player_item_booster_length -1
+scoreboard players set @s temp_store.player_item_booster_persistent -1
 ## store current item's profession
 ## TODO: use some data storage lookup table smart thing?
 execute store result score @s temp_store.player_item_booster_profession run data get entity @s SelectedItem.tag.boosterProfession
@@ -37,6 +38,9 @@ execute store result score @s temp_store.player_item_booster_profession run data
 execute store result score @s temp_store.player_item_booster_multiplier run data get entity @s SelectedItem.tag.boosterMultiplier
 ## store current item's length
 execute store result score @s temp_store.player_item_booster_length run data get entity @s SelectedItem.tag.boosterLength
+## store current item's persistent
+## will keep item rather than removing
+execute store result score @s temp_store.player_item_booster_persistent run data get entity @s SelectedItem.tag.boosterIsPersistent
 
 # item eligible?
 ## valid

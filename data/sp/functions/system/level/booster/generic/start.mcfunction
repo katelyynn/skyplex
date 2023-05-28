@@ -7,7 +7,7 @@
 ## which should (in theory) be the booster
 ## hopefully. these are all in one tick so
 ## yes? please?
-item modify entity @s weapon.mainhand sp:lower_count
+execute unless score @s temp_store.player_item_booster_persistent matches 1.. run item modify entity @s weapon.mainhand sp:lower_count
 
 # sfx
 playsound minecraft:item.bottle.fill player @s

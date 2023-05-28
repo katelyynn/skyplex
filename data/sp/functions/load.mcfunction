@@ -127,6 +127,7 @@ scoreboard objectives add temp_store.player_item_booster_eligible dummy
 scoreboard objectives add temp_store.player_item_booster_profession dummy
 scoreboard objectives add temp_store.player_item_booster_multiplier dummy
 scoreboard objectives add temp_store.player_item_booster_length dummy
+scoreboard objectives add temp_store.player_item_booster_persistent dummy
 ## mining
 scoreboard objectives add lvl.mine.booster dummy
 scoreboard objectives add lvl.mine.booster_time dummy
