@@ -3,6 +3,12 @@
 ## generic start
 
 
+# lower mainhand by 1
+## which should (in theory) be the booster
+## hopefully. these are all in one tick so
+## yes? please?
+item modify entity @s weapon.mainhand sp:lower_count
+
 # sfx
 playsound minecraft:item.bottle.fill player @s
 playsound minecraft:entity.allay.item_given player @s
