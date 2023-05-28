@@ -20,6 +20,16 @@ scoreboard players set 10 internal 10
 scoreboard players set 11 internal 11
 scoreboard players set 12 internal 12
 
+# world
+gamerule announceAdvancements false
+gamerule commandBlockOutput false
+#gamerule doLimitedCrafting true
+gamerule keepInventory true
+gamerule mobGriefing false
+gamerule sendCommandFeedback false
+#gamerule showCoordinates false (1.20)
+#gamerule showTags false (1.20)
+
 # bossbars
 bossbar add sp:ver ""
 bossbar set sp:ver max 12
