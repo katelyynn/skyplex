@@ -10,6 +10,14 @@ function sp:system/level/calc/wood
 function sp:system/level/calc/combat
 
 
+# calculate booster time left
+execute if score @s lvl.mine.booster matches 2.. run function sp:system/level/booster/mine/time
+execute if score @s lvl.fish.booster matches 2.. run function sp:system/level/booster/fish/time
+execute if score @s lvl.farm.booster matches 2.. run function sp:system/level/booster/farm/time
+execute if score @s lvl.wood.booster matches 2.. run function sp:system/level/booster/wood/time
+execute if score @s lvl.combat.booster matches 2.. run function sp:system/level/booster/combat/time
+
+
 # none
 ## (hides actionbar)
 execute unless data entity @s SelectedItem run title @s actionbar ""
