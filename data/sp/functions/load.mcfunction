@@ -51,13 +51,13 @@ scoreboard players set farm.wheat internal 480
 ## foraging
 scoreboard objectives add wood.state dummy
 scoreboard objectives add wood.timer dummy
-scoreboard players set wood.oak_log internal 0
-scoreboard players set wood.spruce_log internal 0
-scoreboard players set wood.birch_log internal 0
-scoreboard players set wood.jungle_log internal 0
-scoreboard players set wood.acacia_log internal 0
-scoreboard players set wood.dark_oak_log internal 0
-scoreboard players set wood.mangrove_log internal 0
+scoreboard players set wood.oak_log internal 160
+scoreboard players set wood.spruce_log internal 160
+scoreboard players set wood.birch_log internal 160
+scoreboard players set wood.jungle_log internal 160
+scoreboard players set wood.acacia_log internal 160
+scoreboard players set wood.dark_oak_log internal 160
+scoreboard players set wood.mangrove_log internal 120
 
 
 # display player level in trigger
