@@ -56,9 +56,9 @@
 - - [x] Level up
 - - [x] Sell for money
 - [ ] The act of cutting down trees
-- - [ ] Track mining
-- - [ ] Level up
-- - [ ] Re-generate blocks
+- - [x] Track mining
+- - [x] Level up
+- - [x] Re-generate blocks
 - - [ ] Sell for money
 - [ ] Farming
 - - [x] Track farming
