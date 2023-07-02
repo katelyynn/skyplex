@@ -2,10 +2,11 @@
 
 
 # range check
-execute unless score @s wood.state matches 1..3 run scoreboard players set @s wood.state 1
+execute unless score @s wood.state matches 1..2 run scoreboard players set @s wood.state 1
 
 # wood present (state 1 -> 2)
 execute if block ~ ~ ~ air if score @s wood.state matches 1 run function sp:system/wood/state_1
+execute if block ~ ~ ~ air if score @s wood.state matches 2 run fill ~ ~ ~ ~ ~ ~ oak_fence replace air
 
 
 # timer finished
