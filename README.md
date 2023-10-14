@@ -1,12 +1,18 @@
-<p align="center">
-<img src="https://media.discordapp.net/attachments/973652851823878274/1089281585767010354/XalsC9K.png" width=128 />
-<h2 align="center">skyplex ✨</h2>
-<p align="center">a work in progress, private, skill-based minecraft experience.</p>
-</p>
+<img
+    align="right" alt="put icon here" width="200px"
+    src=""
+/>
 
-### beta notice
-skyplex is both this datapack and a map. as skyplex is in **early beta**, only the datapack is publicly available.
+# skyplex, a minecraft experience
 
-more information, screenshots, previews, tutorials, etc. etc. will be available as development continues.
+skyplex is a vanilla rpg-esc, vaguely hypixel skyblock-inspired, work-in-progress experience
+in minecraft. it features professions, leveling systems, xp boosters, quests, villager shops, and even
+more is planned for the future :3
 
-stay tuned!!
+## integration
+
+skyplex is being tested on a private (for now) custom map. right now the datapack is available in an
+*early beta* status. more info, screenshots, previews, tutorials, and more will become public
+as development continues.
+
+stay tuned!
