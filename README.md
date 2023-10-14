@@ -1,6 +1,6 @@
 <img
-    align="right" alt="put icon here" width="200px"
-    src=""
+    align="right" alt="icon" width="200px"
+    src="https://github.com/katelyynn/skyplex/assets/46572320/2aa219cb-8c16-4063-bab2-13ee3e2f5df7"
 />
 
 # skyplex, a minecraft experience
